@@ -1,2 +1,3 @@
 === EVOCOMMERCE COMMIT HISTORY ===
 [Commit #1] 2026-05-15T10:20:46.740Z - fix(productmodal): resolve rendering issue in drag and drop widget reordering
+[Commit #2] 2026-05-15T14:21:41.586Z - style(customermodal): refine glassmorphic padding and border hover
