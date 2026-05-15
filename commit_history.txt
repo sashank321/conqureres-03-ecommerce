@@ -1,0 +1,2 @@
+=== EVOCOMMERCE COMMIT HISTORY ===
+[Commit #1] 2026-05-15T10:20:46.740Z - fix(productmodal): resolve rendering issue in drag and drop widget reordering
