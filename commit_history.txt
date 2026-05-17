@@ -19,3 +19,5 @@
 [Commit #11] (kqzvuv8) 2026-05-17T04:02:54.498Z - refactor(customertable): streamline state memoization for interactive order status management
 [Commit #115] 2026-06-04T03:37:05.201Z - style(loadingreveal): refine glassmorphic padding and border hover
 [Commit #116] 2026-06-04T08:17:34.047Z - docs: update documentation for Sidebar
+[Commit #12] (ic9qa0j) 2026-05-17T07:53:48.344Z - style(header): refine glassmorphic padding and border hover
+[Commit #117] 2026-06-04T12:04:02.894Z - docs: update documentation for OrderDetailsModal
