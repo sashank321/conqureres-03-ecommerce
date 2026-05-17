@@ -21,3 +21,5 @@
 [Commit #116] 2026-06-04T08:17:34.047Z - docs: update documentation for Sidebar
 [Commit #12] (ic9qa0j) 2026-05-17T07:53:48.344Z - style(header): refine glassmorphic padding and border hover
 [Commit #117] 2026-06-04T12:04:02.894Z - docs: update documentation for OrderDetailsModal
+[Commit #118] 2026-06-04T15:45:36.740Z - style(header): refine glassmorphic padding and border hover
+[Commit #13] (20zsaa0) 2026-05-17T12:28:40.191Z - perf(sidebar): optimize framer motion transition physics
