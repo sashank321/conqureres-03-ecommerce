@@ -12,3 +12,4 @@
 [Commit #11] 2026-05-17T03:51:29.201Z - refactor(layout): streamline state memoization for recharts area and donut charts
 [Commit #12] 2026-05-17T08:28:31.047Z - style(layout): refine glassmorphic padding and border hover
 [Commit #13] 2026-05-17T12:08:30.894Z - perf(statusbadge): optimize framer motion transition physics
+[Commit #14] 2026-05-17T15:48:48.740Z - chore: update dependencies and configuration for OrderTable
