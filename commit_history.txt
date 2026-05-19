@@ -39,3 +39,5 @@
 [Commit #20] (91s26u0) 2026-05-18T16:35:05.114Z - docs: update documentation for CustomerTable
 [Commit #126] 2026-06-06T00:30:51.509Z - style(glasscard): refine glassmorphic padding and border hover
 [Commit #21] (fsldirz) 2026-05-18T21:04:41.960Z - perf(ordertable): optimize framer motion transition physics
+[Commit #22] (ml18kvc) 2026-05-19T00:34:45.806Z - docs: update documentation for ProductModal
+[Commit #127] 2026-06-06T04:59:43.355Z - style(inventorytable): refine glassmorphic padding and border hover
