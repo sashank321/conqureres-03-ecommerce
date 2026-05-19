@@ -82,3 +82,6 @@ Commit #26: 2026-05-19T11:59:39.428Z - chore: update config for OrderDetailsModa
 [Commit #144] (fmwq5fs) 2026-06-09T03:32:08.037Z - feat(revenuechart): add support for animated counter numbers
 Commit #27: 2026-05-19T15:55:18.610Z - perf(productmodal): optimize framer motion physics #27
 [Commit #248] 2026-06-27T04:11:01.740Z - fix(revenuechart): resolve rendering issue in browser native CSV export tool
+Commit #28: 2026-05-19T19:50:57.791Z - feat(productcard): add support for product creation and edit modal #28
+[Commit #145] (842334g) 2026-06-09T08:00:56.883Z - style(sidebar): refine glassmorphic padding and border hover
+[Commit #249] 2026-06-27T08:21:25.586Z - feat(loadingreveal): add support for drag and drop widget reordering
