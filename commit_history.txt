@@ -86,3 +86,6 @@ Commit #28: 2026-05-19T19:50:57.791Z - feat(productcard): add support for produc
 [Commit #145] (842334g) 2026-06-09T08:00:56.883Z - style(sidebar): refine glassmorphic padding and border hover
 [Commit #249] 2026-06-27T08:21:25.586Z - feat(loadingreveal): add support for drag and drop widget reordering
 [Commit #146] (zbjeio9) 2026-06-09T11:51:54.729Z - chore: update dependencies and configuration for GlassCard
+Commit #29: 2026-05-19T23:46:36.973Z - fix(inventorytable): resolve rendering issue in low stock inventory alerts #29
+[Commit #250] 2026-06-27T11:49:28.432Z - perf(productmodal): optimize framer motion transition physics
+[Commit #147] (xwnnowv) 2026-06-09T15:50:02.575Z - fix(customertable): resolve rendering issue in low stock inventory alerts
