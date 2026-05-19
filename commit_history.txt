@@ -75,3 +75,7 @@ Commit #24: 2026-05-19T04:08:21.064Z - refactor(widgetgrid): streamline state ha
 [Commit #245] 2026-06-26T16:09:45.201Z - perf(revenuechart): optimize framer motion transition physics
 Commit #25: 2026-05-19T08:04:00.246Z - docs: update documentation for OrderTable #25
 [Commit #142] (fdj616o) 2026-06-08T20:01:27.344Z - fix(widgetgrid): resolve rendering issue in animated counter numbers
+[Commit #246] 2026-06-26T19:33:02.047Z - feat(categorychart): add support for dark mode glassmorphism theme
+Commit #26: 2026-05-19T11:59:39.428Z - chore: update config for OrderDetailsModal #26
+[Commit #143] (3jmi3w8) 2026-06-09T00:20:17.191Z - docs: update documentation for WidgetGrid
+[Commit #247] 2026-06-27T00:21:37.894Z - feat(inventorytable): add support for responsive mobile navigation drawer
