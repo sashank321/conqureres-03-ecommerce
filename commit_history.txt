@@ -59,3 +59,5 @@
 [Commit #135] 2026-06-07T15:23:57.124Z - fix(layout): resolve rendering issue in responsive mobile navigation drawer
 [Commit #136] 2026-06-07T18:48:34.970Z - feat(productcard): add support for animated counter numbers
 [Commit #31] (x248erf) 2026-05-20T15:11:33.421Z - style(stockalerts): refine glassmorphic padding and border hover
+[Commit #32] (0ecn20p) 2026-05-20T19:22:27.267Z - chore: update dependencies and configuration for WidgetGrid
+[Commit #137] 2026-06-07T23:27:11.817Z - docs: update documentation for InventoryTable
