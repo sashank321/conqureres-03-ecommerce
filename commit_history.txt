@@ -26,3 +26,4 @@
 [Commit #25] 2026-05-19T13:42:29.047Z - style(channelchart): refine glassmorphic padding and border hover
 [Commit #26] 2026-05-19T17:57:03.894Z - feat(orderdetailsmodal): add support for date range analytics filter
 [Commit #27] 2026-05-19T21:51:36.740Z - chore: update dependencies and configuration for OrderTable
+[Commit #28] 2026-05-20T01:54:52.586Z - feat(glasscard): add support for recharts area and donut charts
