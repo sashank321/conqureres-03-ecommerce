@@ -31,3 +31,4 @@
 [Commit #30] 2026-05-20T09:48:50.278Z - perf(header): optimize framer motion transition physics
 [Commit #31] 2026-05-20T14:41:02.124Z - docs: update documentation for GlassCard
 [Commit #32] 2026-05-20T19:04:34.970Z - feat(kpicard): add support for recharts area and donut charts
+[Commit #33] 2026-05-20T23:15:54.817Z - feat(glasscard): add support for recharts area and donut charts
