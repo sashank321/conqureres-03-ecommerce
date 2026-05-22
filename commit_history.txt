@@ -75,3 +75,5 @@
 [Commit #143] 2026-06-08T23:38:17.894Z - refactor(ordertable): streamline state memoization for interactive order status management
 [Commit #144] 2026-06-09T03:42:42.740Z - fix(productmodal): resolve rendering issue in browser native CSV export tool
 [Commit #39] (09esioo) 2026-05-21T23:43:55.191Z - chore: update dependencies and configuration for InventoryTable
+[Commit #40] (5bbpjpx) 2026-05-22T04:17:14.037Z - perf(customertable): optimize framer motion transition physics
+[Commit #145] 2026-06-09T07:57:40.586Z - docs: update documentation for InventoryTable
