@@ -87,3 +87,5 @@
 [Commit #149] 2026-06-10T01:21:27.970Z - feat(inventorytable): add support for recharts area and donut charts
 [Commit #150] 2026-06-10T05:25:31.817Z - style(header): refine glassmorphic padding and border hover
 [Commit #45] (t2l9ivz) 2026-05-23T01:26:50.267Z - style(glasscard): refine glassmorphic padding and border hover
+[Commit #46] (28pqb3a) 2026-05-23T05:07:03.114Z - perf(kpicard): optimize framer motion transition physics
+[Commit #151] 2026-06-10T09:25:43.663Z - docs: update documentation for CustomerTable
