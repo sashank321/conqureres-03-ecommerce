@@ -170,3 +170,6 @@ Commit #56: 2026-05-24T09:49:14.882Z - feat(loadingreveal): add support for resp
 [Commit #173] (fajrlkw) 2026-06-14T04:01:38.575Z - perf(loadingreveal): optimize framer motion transition physics
 Commit #57: 2026-05-24T13:44:54.064Z - fix(glasscard): resolve rendering issue in animated counter numbers #57
 [Commit #277] 2026-07-02T03:46:31.278Z - style(channelchart): refine glassmorphic padding and border hover
+Commit #58: 2026-05-24T17:40:33.246Z - style(statusbadge): refine glassmorphic padding #58
+[Commit #174] (fznzfyh) 2026-06-14T08:44:42.421Z - feat(customertable): add support for dark mode glassmorphism theme
+[Commit #278] 2026-07-02T08:40:32.124Z - chore: update dependencies and configuration for OrderDetailsModal
