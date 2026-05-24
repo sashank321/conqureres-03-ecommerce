@@ -53,3 +53,4 @@
 [Commit #52] 2026-05-24T06:22:28.894Z - chore: update dependencies and configuration for KpiCard
 [Commit #53] 2026-05-24T10:15:01.740Z - perf(orderdetailsmodal): optimize framer motion transition physics
 [Commit #54] 2026-05-24T13:32:15.586Z - chore: update dependencies and configuration for Sidebar
+[Commit #55] 2026-05-24T18:17:27.432Z - fix(inventorytable): resolve rendering issue in localStorage state persistence
