@@ -114,3 +114,8 @@
 [Commit #59] (monhsck) 2026-05-25T10:58:08.114Z - docs: update documentation for ChannelChart
 [Commit #162] 2026-06-12T06:30:24.970Z - feat(glasscard): add support for Framer Motion spring physics
 [Commit #60] (xcen0ty) 2026-05-25T14:41:46.960Z - style(orderdetailsmodal): refine glassmorphic padding and border hover
+[Commit #61] (ovx51e0) 2026-05-25T18:33:55.806Z - style(revenuechart): refine glassmorphic padding and border hover
+[Commit #163] 2026-06-12T10:46:48.817Z - style(widgetgrid): refine glassmorphic padding and border hover
+[Commit #164] 2026-06-12T14:32:01.663Z - refactor(channelchart): streamline state memoization for dark mode glassmorphism theme
+[Commit #62] (2qjz2bs) 2026-05-25T23:09:18.652Z - fix(loadingreveal): resolve rendering issue in recharts area and donut charts
+[Commit #165] 2026-06-12T19:18:28.509Z - fix(ordertable): resolve rendering issue in localStorage state persistence
