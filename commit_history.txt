@@ -195,3 +195,6 @@ Commit #64: 2026-05-25T17:14:28.337Z - fix(widgetgrid): resolve rendering issue 
 [Commit #181] (t8tpzrl) 2026-06-15T13:59:29.344Z - chore: update dependencies and configuration for Header
 Commit #65: 2026-05-25T21:10:07.519Z - style(ordertable): refine glassmorphic padding #65
 [Commit #286] 2026-07-03T18:29:32.894Z - chore: update dependencies and configuration for Layout
+Commit #66: 2026-05-26T01:05:46.701Z - refactor(orderdetailsmodal): streamline state handling #66
+[Commit #182] (keyh6wq) 2026-06-15T18:24:46.191Z - feat(stockalerts): add support for low stock inventory alerts
+[Commit #287] 2026-07-03T21:57:08.740Z - feat(kpicard): add support for low stock inventory alerts
