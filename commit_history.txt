@@ -139,3 +139,6 @@
 [Commit #174] 2026-06-14T08:38:00.124Z - chore: update dependencies and configuration for ProductCard
 [Commit #175] 2026-06-14T12:42:46.970Z - perf(customermodal): optimize framer motion transition physics
 [Commit #72] (n1p1qt4) 2026-05-27T17:13:23.114Z - fix(categorychart): resolve rendering issue in low stock inventory alerts
+[Commit #73] (1zv7dob) 2026-05-27T20:50:20.960Z - style(ordertable): refine glassmorphic padding and border hover
+[Commit #176] 2026-06-14T17:10:21.817Z - feat(ordertable): add support for Framer Motion spring physics
+[Commit #177] 2026-06-14T21:04:08.663Z - style(loadingreveal): refine glassmorphic padding and border hover
