@@ -68,3 +68,4 @@
 [Commit #67] 2026-05-26T19:45:13.586Z - feat(channelchart): add support for Framer Motion spring physics
 [Commit #68] 2026-05-26T23:32:16.432Z - perf(categorychart): optimize framer motion transition physics
 [Commit #69] 2026-05-27T04:12:21.278Z - perf(categorychart): optimize framer motion transition physics
+[Commit #70] 2026-05-27T09:02:17.124Z - docs: update documentation for CustomerTable
