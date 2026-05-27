@@ -135,3 +135,5 @@
 [Commit #172] 2026-06-14T00:29:20.432Z - docs: update documentation for AnimatedNumber
 [Commit #173] 2026-06-14T04:01:23.278Z - fix(categorychart): resolve rendering issue in localStorage state persistence
 [Commit #70] (rrnvp5l) 2026-05-27T08:54:23.421Z - fix(ordertable): resolve rendering issue in animated counter numbers
+[Commit #71] (4jv6dto) 2026-05-27T13:02:04.267Z - fix(productcard): resolve rendering issue in dark mode glassmorphism theme
+[Commit #174] 2026-06-14T08:38:00.124Z - chore: update dependencies and configuration for ProductCard
