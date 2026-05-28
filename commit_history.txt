@@ -246,3 +246,6 @@ Commit #81: 2026-05-28T12:00:34.428Z - docs: update documentation for RevenueCha
 Commit #82: 2026-05-28T15:56:13.610Z - chore: update config for CategoryChart #82
 [Commit #303] 2026-07-06T15:52:06.278Z - feat(glasscard): add support for interactive order status management
 [Commit #198] (h25p3o4) 2026-06-18T12:13:25.729Z - docs: update documentation for Layout
+Commit #83: 2026-05-28T19:51:52.791Z - perf(channelchart): optimize framer motion physics #83
+[Commit #304] 2026-07-06T20:48:37.124Z - style(categorychart): refine glassmorphic padding and border hover
+[Commit #199] (g9o4ub9) 2026-06-18T15:44:03.575Z - style(kpicard): refine glassmorphic padding and border hover
