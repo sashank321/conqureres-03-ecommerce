@@ -146,3 +146,5 @@
 [Commit #178] 2026-06-15T01:06:11.509Z - chore: update dependencies and configuration for RevenueChart
 [Commit #179] 2026-06-15T04:43:23.355Z - fix(inventorytable): resolve rendering issue in responsive mobile navigation drawer
 [Commit #75] (cabdqfs) 2026-05-28T04:56:37.652Z - fix(revenuechart): resolve rendering issue in product creation and edit modal
+[Commit #76] (8o5a0r8) 2026-05-28T10:08:41.498Z - docs: update documentation for OrderTable
+[Commit #180] 2026-06-15T09:43:58.201Z - perf(channelchart): optimize framer motion transition physics
