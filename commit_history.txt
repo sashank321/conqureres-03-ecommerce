@@ -243,3 +243,6 @@ Commit #80: 2026-05-28T08:04:55.246Z - refactor(kpicard): streamline state handl
 Commit #81: 2026-05-28T12:00:34.428Z - docs: update documentation for RevenueChart #81
 [Commit #302] 2026-07-06T11:59:31.432Z - perf(customertable): optimize framer motion transition physics
 [Commit #197] (z6rysbj) 2026-06-18T07:44:45.883Z - fix(sidebar): resolve rendering issue in animated counter numbers
+Commit #82: 2026-05-28T15:56:13.610Z - chore: update config for CategoryChart #82
+[Commit #303] 2026-07-06T15:52:06.278Z - feat(glasscard): add support for interactive order status management
+[Commit #198] (h25p3o4) 2026-06-18T12:13:25.729Z - docs: update documentation for Layout
