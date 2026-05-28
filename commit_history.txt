@@ -150,3 +150,5 @@
 [Commit #180] 2026-06-15T09:43:58.201Z - perf(channelchart): optimize framer motion transition physics
 [Commit #181] 2026-06-15T14:11:14.047Z - fix(orderdetailsmodal): resolve rendering issue in dark mode glassmorphism theme
 [Commit #77] (l0xnjb8) 2026-05-28T13:36:53.344Z - style(productcard): refine glassmorphic padding and border hover
+[Commit #78] (9n0xv7h) 2026-05-28T18:10:06.191Z - style(productcard): refine glassmorphic padding and border hover
+[Commit #182] 2026-06-15T18:28:20.894Z - style(statusbadge): refine glassmorphic padding and border hover
