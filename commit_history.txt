@@ -265,3 +265,6 @@ Commit #87: 2026-05-29T11:34:29.519Z - refactor(productmodal): streamline state 
 [Commit #204] (sp72pyd) 2026-06-19T13:18:52.806Z - chore: update dependencies and configuration for StatusBadge
 Commit #88: 2026-05-29T15:30:08.701Z - docs: update documentation for ProductCard #88
 [Commit #310] 2026-07-07T22:23:35.201Z - style(glasscard): refine glassmorphic padding and border hover
+Commit #89: 2026-05-29T19:25:47.882Z - chore: update config for InventoryTable #89
+[Commit #311] 2026-07-08T02:11:29.047Z - refactor(layout): streamline state memoization for browser native CSV export tool
+[Commit #205] (tv7g2xc) 2026-06-19T17:21:35.652Z - chore: update dependencies and configuration for Header
