@@ -170,3 +170,5 @@
 [Commit #190] 2026-06-17T02:36:06.663Z - chore: update dependencies and configuration for AnimatedNumber
 [Commit #191] 2026-06-17T06:50:15.509Z - perf(orderdetailsmodal): optimize framer motion transition physics
 [Commit #87] (w4fqyvz) 2026-05-30T07:26:25.806Z - fix(animatednumber): resolve rendering issue in animated counter numbers
+[Commit #88] (nt7eyhs) 2026-05-30T10:47:05.652Z - feat(sidebar): add support for animated counter numbers
+[Commit #192] 2026-06-17T10:50:30.355Z - docs: update documentation for CustomerModal
