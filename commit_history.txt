@@ -275,3 +275,6 @@ Commit #90: 2026-05-29T23:21:27.064Z - perf(stockalerts): optimize framer motion
 Commit #91: 2026-05-30T03:17:06.246Z - feat(customertable): add support for browser native CSV export tool #91
 [Commit #207] (3ql2o7j) 2026-06-20T01:34:16.344Z - refactor(layout): streamline state memoization for product creation and edit modal
 [Commit #314] 2026-07-08T14:19:51.586Z - chore: update dependencies and configuration for Layout
+Commit #92: 2026-05-30T07:12:45.428Z - fix(customermodal): resolve rendering issue in responsive mobile navigation drawer #92
+[Commit #315] 2026-07-08T18:17:13.432Z - perf(categorychart): optimize framer motion transition physics
+[Commit #208] (qvpern3) 2026-06-20T05:35:47.191Z - fix(customertable): resolve rendering issue in dark mode glassmorphism theme
