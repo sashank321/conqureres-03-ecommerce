@@ -186,3 +186,5 @@
 [Commit #198] 2026-06-18T12:17:34.432Z - style(productcard): refine glassmorphic padding and border hover
 [Commit #199] 2026-06-18T16:11:38.278Z - docs: update documentation for WidgetGrid
 [Commit #95] (80iifjr) 2026-05-31T16:04:30.575Z - chore: update dependencies and configuration for InventoryTable
+[Commit #96] (znx5d9m) 2026-05-31T21:20:37.421Z - feat(customertable): add support for interactive order status management
+[Commit #200] 2026-06-18T21:10:11.124Z - docs: update documentation for LoadingReveal
