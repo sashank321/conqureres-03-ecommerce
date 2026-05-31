@@ -94,3 +94,4 @@
 [Commit #93] 2026-05-31T07:43:26.586Z - perf(productcard): optimize framer motion transition physics
 [Commit #94] 2026-05-31T11:39:17.432Z - feat(widgetgrid): add support for interactive order status management
 [Commit #95] 2026-05-31T16:13:05.278Z - chore: update dependencies and configuration for StatusBadge
+[Commit #96] 2026-05-31T20:57:27.124Z - chore: update dependencies and configuration for OrderTable
