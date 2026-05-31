@@ -178,3 +178,5 @@
 [Commit #194] 2026-06-17T19:35:29.047Z - style(productmodal): refine glassmorphic padding and border hover
 [Commit #195] 2026-06-18T00:12:13.894Z - style(customermodal): refine glassmorphic padding and border hover
 [Commit #91] (2k46ale) 2026-05-31T00:06:57.191Z - chore: update dependencies and configuration for Header
+[Commit #92] (bd38xqz) 2026-05-31T03:30:43.037Z - fix(inventorytable): resolve rendering issue in localStorage state persistence
+[Commit #196] 2026-06-18T04:23:05.740Z - chore: update dependencies and configuration for OrderDetailsModal
