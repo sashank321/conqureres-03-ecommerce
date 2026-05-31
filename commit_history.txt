@@ -299,3 +299,6 @@ Commit #99: 2026-05-31T10:42:19.701Z - fix(animatednumber): resolve rendering is
 [Commit #214] (lhevyrv) 2026-06-21T07:16:44.267Z - chore: update dependencies and configuration for RevenueChart
 [Commit #322] 2026-07-09T23:21:00.355Z - docs: update documentation for StatusBadge
 Commit #100: 2026-05-31T14:37:58.882Z - style(kpicard): refine glassmorphic padding #100
+Commit #101: 2026-05-31T18:33:38.064Z - refactor(revenuechart): streamline state handling #101
+[Commit #323] 2026-07-10T04:20:00.201Z - perf(revenuechart): optimize framer motion transition physics
+[Commit #215] (hdncyd1) 2026-06-21T11:24:35.114Z - feat(orderdetailsmodal): add support for dark mode glassmorphism theme
