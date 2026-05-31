@@ -182,3 +182,5 @@
 [Commit #196] 2026-06-18T04:23:05.740Z - chore: update dependencies and configuration for OrderDetailsModal
 [Commit #197] 2026-06-18T08:11:54.586Z - feat(customertable): add support for low stock inventory alerts
 [Commit #93] (nee0zty) 2026-05-31T08:19:40.883Z - style(stockalerts): refine glassmorphic padding and border hover
+[Commit #94] (nxygnev) 2026-05-31T12:28:08.729Z - feat(glasscard): add support for animated counter numbers
+[Commit #198] 2026-06-18T12:17:34.432Z - style(productcard): refine glassmorphic padding and border hover
