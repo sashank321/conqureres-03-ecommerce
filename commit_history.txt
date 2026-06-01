@@ -97,3 +97,4 @@
 [Commit #96] 2026-05-31T20:57:27.124Z - chore: update dependencies and configuration for OrderTable
 [Commit #97] 2026-06-01T01:13:43.970Z - chore: update dependencies and configuration for LoadingReveal
 [Commit #98] 2026-06-01T04:51:46.817Z - perf(channelchart): optimize framer motion transition physics
+[Commit #99] 2026-06-01T09:10:26.663Z - feat(kpicard): add support for Framer Motion spring physics
