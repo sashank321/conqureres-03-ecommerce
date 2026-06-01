@@ -96,3 +96,4 @@
 [Commit #95] 2026-05-31T16:13:05.278Z - chore: update dependencies and configuration for StatusBadge
 [Commit #96] 2026-05-31T20:57:27.124Z - chore: update dependencies and configuration for OrderTable
 [Commit #97] 2026-06-01T01:13:43.970Z - chore: update dependencies and configuration for LoadingReveal
+[Commit #98] 2026-06-01T04:51:46.817Z - perf(channelchart): optimize framer motion transition physics
