@@ -203,3 +203,5 @@
 [Commit #206] 2026-06-19T21:42:14.201Z - chore: update dependencies and configuration for ChannelChart
 [Commit #207] 2026-06-20T02:17:45.047Z - docs: update documentation for CustomerModal
 [Commit #104] (87ssafc) 2026-06-02T05:58:00.191Z - fix(productmodal): resolve rendering issue in animated counter numbers
+[Commit #105] (ts0nxel) 2026-06-02T09:45:28.037Z - feat(statusbadge): add support for browser native CSV export tool
+[Commit #208] 2026-06-20T05:32:42.894Z - chore: update dependencies and configuration for ProductModal
