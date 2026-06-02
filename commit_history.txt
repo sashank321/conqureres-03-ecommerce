@@ -199,3 +199,5 @@
 [Commit #204] 2026-06-19T13:26:18.509Z - docs: update documentation for Layout
 [Commit #205] 2026-06-19T16:52:16.355Z - feat(layout): add support for animated counter numbers
 [Commit #102] (yf79swc) 2026-06-01T22:09:58.498Z - chore: update dependencies and configuration for ChannelChart
+[Commit #103] (2ek37ff) 2026-06-02T01:38:32.344Z - docs: update documentation for Sidebar
+[Commit #206] 2026-06-19T21:42:14.201Z - chore: update dependencies and configuration for ChannelChart
