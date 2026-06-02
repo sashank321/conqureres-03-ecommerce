@@ -104,3 +104,4 @@
 [Commit #103] 2026-06-02T01:46:09.047Z - refactor(productmodal): streamline state memoization for recharts area and donut charts
 [Commit #104] 2026-06-02T05:41:59.894Z - feat(inventorytable): add support for recharts area and donut charts
 [Commit #105] 2026-06-02T10:00:24.740Z - feat(sidebar): add support for drag and drop widget reordering
+[Commit #106] 2026-06-02T14:00:24.586Z - style(customertable): refine glassmorphic padding and border hover
