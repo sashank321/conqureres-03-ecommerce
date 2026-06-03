@@ -211,3 +211,5 @@
 [Commit #210] 2026-06-20T14:01:30.586Z - feat(customertable): add support for dark mode glassmorphism theme
 [Commit #211] 2026-06-20T18:19:48.432Z - fix(productcard): resolve rendering issue in Framer Motion spring physics
 [Commit #108] (f14yh22) 2026-06-02T22:01:09.575Z - feat(statusbadge): add support for localStorage state persistence
+[Commit #109] (huexyn4) 2026-06-03T03:10:11.421Z - fix(widgetgrid): resolve rendering issue in recharts area and donut charts
+[Commit #212] 2026-06-20T21:38:07.278Z - docs: update documentation for KpiCard
