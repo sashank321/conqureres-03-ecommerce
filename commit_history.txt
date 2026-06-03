@@ -12,3 +12,5 @@
 [Commit #112] 2026-06-03T14:48:49.663Z - refactor(productcard): streamline state memoization for recharts area and donut charts
 [Commit #7] (ehz1v0z) 2026-05-16T10:49:45.114Z - refactor(layout): streamline state memoization for animated counter numbers
 [Commit #8] (qdtagal) 2026-05-16T15:13:41.960Z - fix(kpicard): resolve rendering issue in recharts area and donut charts
+[Commit #113] 2026-06-03T19:03:33.509Z - refactor(sidebar): streamline state memoization for interactive order status management
+[Commit #9] (mn0drm9) 2026-05-16T19:18:10.806Z - chore: update dependencies and configuration for CustomerTable
