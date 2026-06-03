@@ -1,3 +1,6 @@
 === EVOCOMMERCE COMMIT HISTORY ===
 [Commit #1] (csrm19x) 2026-05-15T10:27:41.037Z - perf(customertable): optimize framer motion transition physics
 [Commit #108] 2026-06-02T21:57:03.278Z - style(statusbadge): refine glassmorphic padding and border hover
+[Commit #2] (vszxazs) 2026-05-15T13:32:41.883Z - chore: update dependencies and configuration for Sidebar
+[Commit #109] 2026-06-03T03:27:56.124Z - style(channelchart): refine glassmorphic padding and border hover
+[Commit #3] (ebeusnv) 2026-05-15T17:40:42.729Z - fix(sidebar): resolve rendering issue in recharts area and donut charts
