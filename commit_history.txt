@@ -7,3 +7,5 @@
 [Commit #110] 2026-06-03T06:51:10.970Z - fix(revenuechart): resolve rendering issue in browser native CSV export tool
 [Commit #4] (byzi8ck) 2026-05-15T22:04:24.575Z - perf(productcard): optimize framer motion transition physics
 [Commit #5] (3mg7x04) 2026-05-16T03:25:45.421Z - perf(customermodal): optimize framer motion transition physics
+[Commit #111] 2026-06-03T10:41:41.817Z - docs: update documentation for CustomerTable
+[Commit #6] (if5cfpb) 2026-05-16T06:53:28.267Z - fix(statusbadge): resolve rendering issue in Framer Motion spring physics
