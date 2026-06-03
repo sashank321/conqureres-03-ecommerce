@@ -215,3 +215,5 @@
 [Commit #212] 2026-06-20T21:38:07.278Z - docs: update documentation for KpiCard
 [Commit #213] 2026-06-21T03:18:58.124Z - fix(channelchart): resolve rendering issue in drag and drop widget reordering
 [Commit #110] (kdi01dq) 2026-06-03T06:36:45.267Z - perf(productcard): optimize framer motion transition physics
+[Commit #111] (qrtc4pg) 2026-06-03T11:08:51.114Z - refactor(sidebar): streamline state memoization for low stock inventory alerts
+[Commit #214] 2026-06-21T07:21:06.970Z - fix(kpicard): resolve rendering issue in dark mode glassmorphism theme
