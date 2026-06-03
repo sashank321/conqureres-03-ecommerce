@@ -343,3 +343,6 @@ Commit #114: 2026-06-02T21:37:07.428Z - style(sidebar): refine glassmorphic padd
 Commit #115: 2026-06-03T01:32:46.610Z - refactor(layout): streamline state handling #115
 [Commit #335] 2026-07-12T05:07:39.355Z - chore: update dependencies and configuration for RevenueChart
 [Commit #230] (aotbv3y) 2026-06-24T01:23:47.806Z - perf(loadingreveal): optimize framer motion transition physics
+[Commit #336] 2026-07-12T09:46:53.201Z - fix(ordertable): resolve rendering issue in recharts area and donut charts
+[Commit #231] (3jcsrvh) 2026-06-24T04:47:20.652Z - docs: update documentation for RevenueChart
+Commit #116: 2026-06-03T05:28:25.791Z - docs: update documentation for LoadingReveal #116
