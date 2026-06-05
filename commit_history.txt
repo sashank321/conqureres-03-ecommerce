@@ -35,3 +35,5 @@
 [Commit #18] (xd1lrut) 2026-05-18T09:22:49.421Z - style(orderdetailsmodal): refine glassmorphic padding and border hover
 [Commit #19] (yzpvzzy) 2026-05-18T13:08:11.267Z - feat(loadingreveal): add support for dark mode glassmorphism theme
 [Commit #124] 2026-06-05T17:28:05.817Z - style(widgetgrid): refine glassmorphic padding and border hover
+[Commit #125] 2026-06-05T21:20:37.663Z - fix(revenuechart): resolve rendering issue in recharts area and donut charts
+[Commit #20] (91s26u0) 2026-05-18T16:35:05.114Z - docs: update documentation for CustomerTable
