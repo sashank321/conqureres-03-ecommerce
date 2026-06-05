@@ -27,3 +27,5 @@
 [Commit #14] (iklb73y) 2026-05-17T15:38:00.037Z - feat(customertable): add support for product creation and edit modal
 [Commit #15] (9fmddr0) 2026-05-17T20:25:47.883Z - perf(layout): optimize framer motion transition physics
 [Commit #120] 2026-06-05T00:12:51.432Z - feat(productcard): add support for localStorage state persistence
+[Commit #121] 2026-06-05T03:53:32.278Z - chore: update dependencies and configuration for ChannelChart
+[Commit #16] (ob8d7ov) 2026-05-17T23:35:21.729Z - perf(channelchart): optimize framer motion transition physics
