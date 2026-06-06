@@ -37,3 +37,5 @@
 [Commit #124] 2026-06-05T17:28:05.817Z - style(widgetgrid): refine glassmorphic padding and border hover
 [Commit #125] 2026-06-05T21:20:37.663Z - fix(revenuechart): resolve rendering issue in recharts area and donut charts
 [Commit #20] (91s26u0) 2026-05-18T16:35:05.114Z - docs: update documentation for CustomerTable
+[Commit #126] 2026-06-06T00:30:51.509Z - style(glasscard): refine glassmorphic padding and border hover
+[Commit #21] (fsldirz) 2026-05-18T21:04:41.960Z - perf(ordertable): optimize framer motion transition physics
