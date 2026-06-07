@@ -40,3 +40,6 @@ Commit #12: 2026-05-17T05:00:30.882Z - chore: update config for CustomerModal #1
 [Commit #233] 2026-06-24T14:13:04.047Z - perf(sidebar): optimize framer motion transition physics
 [Commit #131] (0oisb2l) 2026-06-06T22:04:09.037Z - feat(stockalerts): add support for recharts area and donut charts
 Commit #13: 2026-05-17T08:56:10.064Z - perf(header): optimize framer motion physics #13
+[Commit #132] (78msboi) 2026-06-07T01:31:11.883Z - style(statusbadge): refine glassmorphic padding and border hover
+Commit #14: 2026-05-17T12:51:49.246Z - feat(sidebar): add support for drag and drop widget reordering #14
+[Commit #234] 2026-06-24T18:10:20.894Z - perf(widgetgrid): optimize framer motion transition physics
