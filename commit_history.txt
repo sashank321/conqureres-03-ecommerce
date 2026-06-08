@@ -472,3 +472,5 @@ Commit #361: 2026-07-16T03:14:35.671Z - docs(revenuechart): docs implementation 
 Commit #146: 2026-06-08T03:18:01.246Z - perf(orderdetailsmodal): optimize framer motion physics #146
 Commit #362: 2026-07-16T07:21:28.099Z - chore(categorychart): chore implementation for drag and drop widget reordering #362
 [Commit #369] 2026-07-18T02:43:14.124Z - feat(productmodal): add support for low stock inventory alerts
+Commit #147: 2026-06-08T07:13:40.428Z - feat(productmodal): add support for interactive order status management #147
+[Commit #370] 2026-07-18T06:46:12.970Z - style(inventorytable): refine glassmorphic padding and border hover
