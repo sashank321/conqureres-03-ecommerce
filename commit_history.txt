@@ -65,3 +65,5 @@
 [Commit #33] (9wgpc4i) 2026-05-20T23:15:35.114Z - chore: update dependencies and configuration for Layout
 [Commit #34] (1ujdl5e) 2026-05-21T03:17:32.960Z - chore: update dependencies and configuration for ProductCard
 [Commit #139] 2026-06-08T06:32:34.509Z - feat(layout): add support for browser native CSV export tool
+[Commit #140] 2026-06-08T10:32:30.355Z - feat(orderdetailsmodal): add support for date range analytics filter
+[Commit #35] (6u17o8v) 2026-05-21T06:54:12.806Z - fix(sidebar): resolve rendering issue in responsive mobile navigation drawer
