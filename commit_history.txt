@@ -77,3 +77,5 @@
 [Commit #39] (09esioo) 2026-05-21T23:43:55.191Z - chore: update dependencies and configuration for InventoryTable
 [Commit #40] (5bbpjpx) 2026-05-22T04:17:14.037Z - perf(customertable): optimize framer motion transition physics
 [Commit #145] 2026-06-09T07:57:40.586Z - docs: update documentation for InventoryTable
+[Commit #146] 2026-06-09T11:49:53.432Z - feat(stockalerts): add support for responsive mobile navigation drawer
+[Commit #41] (crdz23t) 2026-05-22T08:25:44.883Z - perf(customertable): optimize framer motion transition physics
