@@ -81,3 +81,5 @@
 [Commit #41] (crdz23t) 2026-05-22T08:25:44.883Z - perf(customertable): optimize framer motion transition physics
 [Commit #42] (jijpo65) 2026-05-22T12:10:30.729Z - feat(productmodal): add support for product creation and edit modal
 [Commit #147] 2026-06-09T15:32:03.278Z - chore: update dependencies and configuration for CategoryChart
+[Commit #148] 2026-06-09T20:59:41.124Z - fix(productcard): resolve rendering issue in responsive mobile navigation drawer
+[Commit #43] (6fxgjjl) 2026-05-22T15:59:23.575Z - fix(categorychart): resolve rendering issue in responsive mobile navigation drawer
