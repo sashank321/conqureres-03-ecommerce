@@ -93,3 +93,6 @@ Commit #29: 2026-05-19T23:46:36.973Z - fix(inventorytable): resolve rendering is
 Commit #30: 2026-05-20T03:42:16.155Z - style(stockalerts): refine glassmorphic padding #30
 [Commit #148] (52qxzu7) 2026-06-09T21:22:36.421Z - style(categorychart): refine glassmorphic padding and border hover
 Commit #31: 2026-05-20T07:37:55.337Z - refactor(customertable): streamline state handling #31
+[Commit #149] (7xh91ir) 2026-06-10T00:54:33.267Z - chore: update dependencies and configuration for OrderTable
+[Commit #252] 2026-06-27T20:45:38.124Z - perf(revenuechart): optimize framer motion transition physics
+Commit #32: 2026-05-20T11:33:34.519Z - docs: update documentation for CustomerModal #32
