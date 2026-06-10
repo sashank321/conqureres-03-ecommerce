@@ -89,3 +89,6 @@
 [Commit #45] (t2l9ivz) 2026-05-23T01:26:50.267Z - style(glasscard): refine glassmorphic padding and border hover
 [Commit #46] (28pqb3a) 2026-05-23T05:07:03.114Z - perf(kpicard): optimize framer motion transition physics
 [Commit #151] 2026-06-10T09:25:43.663Z - docs: update documentation for CustomerTable
+[Commit #152] 2026-06-10T13:24:50.509Z - docs: update documentation for KpiCard
+[Commit #47] (hcq6cxm) 2026-05-23T08:50:27.960Z - refactor(ordertable): streamline state memoization for recharts area and donut charts
+[Commit #48] (i9emyiv) 2026-05-23T12:41:09.806Z - feat(loadingreveal): add support for product creation and edit modal
