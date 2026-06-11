@@ -102,3 +102,5 @@
 [Commit #52] (i83ohxn) 2026-05-24T06:02:22.191Z - perf(statusbadge): optimize framer motion transition physics
 [Commit #53] (jgx2ily) 2026-05-24T10:20:34.037Z - docs: update documentation for InventoryTable
 [Commit #157] 2026-06-11T10:06:47.740Z - style(productcard): refine glassmorphic padding and border hover
+[Commit #158] 2026-06-11T14:07:28.586Z - perf(productmodal): optimize framer motion transition physics
+[Commit #54] (uot9rdd) 2026-05-24T14:17:23.883Z - refactor(sidebar): streamline state memoization for low stock inventory alerts
