@@ -109,3 +109,6 @@
 [Commit #56] (5gav8ck) 2026-05-24T22:00:54.575Z - style(header): refine glassmorphic padding and border hover
 [Commit #160] 2026-06-11T22:18:27.278Z - fix(glasscard): resolve rendering issue in responsive mobile navigation drawer
 [Commit #57] (i96sfmb) 2026-05-25T02:57:29.421Z - fix(categorychart): resolve rendering issue in browser native CSV export tool
+[Commit #58] (9s1zqnw) 2026-05-25T07:13:43.267Z - perf(stockalerts): optimize framer motion transition physics
+[Commit #161] 2026-06-12T02:39:50.124Z - fix(ordertable): resolve rendering issue in drag and drop widget reordering
+[Commit #59] (monhsck) 2026-05-25T10:58:08.114Z - docs: update documentation for ChannelChart
