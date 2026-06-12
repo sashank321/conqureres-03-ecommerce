@@ -142,3 +142,5 @@ Commit #46: 2026-05-22T18:32:43.064Z - docs: update documentation for OrderDetai
 Commit #47: 2026-05-22T22:28:22.246Z - chore: update config for ProductModal #47
 [Commit #164] (g0h9ptg) 2026-06-12T15:24:28.960Z - refactor(customermodal): streamline state memoization for browser native CSV export tool
 Commit #48: 2026-05-23T02:24:01.428Z - perf(productcard): optimize framer motion physics #48
+Commit #49: 2026-05-23T06:19:40.610Z - feat(inventorytable): add support for Framer Motion spring physics #49
+[Commit #268] 2026-06-30T15:03:38.663Z - chore: update dependencies and configuration for RevenueChart
