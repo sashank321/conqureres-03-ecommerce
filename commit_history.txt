@@ -144,3 +144,6 @@ Commit #47: 2026-05-22T22:28:22.246Z - chore: update config for ProductModal #47
 Commit #48: 2026-05-23T02:24:01.428Z - perf(productcard): optimize framer motion physics #48
 Commit #49: 2026-05-23T06:19:40.610Z - feat(inventorytable): add support for Framer Motion spring physics #49
 [Commit #268] 2026-06-30T15:03:38.663Z - chore: update dependencies and configuration for RevenueChart
+[Commit #165] (c80kakz) 2026-06-12T19:29:47.806Z - style(categorychart): refine glassmorphic padding and border hover
+Commit #50: 2026-05-23T10:15:19.791Z - fix(stockalerts): resolve rendering issue in drag and drop widget reordering #50
+[Commit #269] 2026-06-30T19:09:47.509Z - style(sidebar): refine glassmorphic padding and border hover
