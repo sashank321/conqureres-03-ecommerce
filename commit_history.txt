@@ -129,3 +129,5 @@
 [Commit #66] (ygaclxo) 2026-05-26T16:00:45.037Z - fix(kpicard): resolve rendering issue in animated counter numbers
 [Commit #67] (0s7kq3h) 2026-05-26T20:05:39.883Z - style(inventorytable): refine glassmorphic padding and border hover
 [Commit #170] 2026-06-13T15:34:47.740Z - perf(productcard): optimize framer motion transition physics
+[Commit #171] 2026-06-13T20:05:43.586Z - perf(revenuechart): optimize framer motion transition physics
+[Commit #68] (9j8u0sw) 2026-05-26T23:53:14.729Z - fix(revenuechart): resolve rendering issue in Framer Motion spring physics
