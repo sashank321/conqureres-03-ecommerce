@@ -125,3 +125,5 @@
 [Commit #64] (8fbwwqb) 2026-05-26T07:39:01.344Z - fix(categorychart): resolve rendering issue in responsive mobile navigation drawer
 [Commit #65] (em2fpim) 2026-05-26T11:44:11.191Z - style(customertable): refine glassmorphic padding and border hover
 [Commit #168] 2026-06-13T08:09:37.047Z - style(customertable): refine glassmorphic padding and border hover
+[Commit #169] 2026-06-13T12:06:28.894Z - docs: update documentation for RevenueChart
+[Commit #66] (ygaclxo) 2026-05-26T16:00:45.037Z - fix(kpicard): resolve rendering issue in animated counter numbers
