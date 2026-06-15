@@ -152,3 +152,5 @@
 [Commit #77] (l0xnjb8) 2026-05-28T13:36:53.344Z - style(productcard): refine glassmorphic padding and border hover
 [Commit #78] (9n0xv7h) 2026-05-28T18:10:06.191Z - style(productcard): refine glassmorphic padding and border hover
 [Commit #182] 2026-06-15T18:28:20.894Z - style(statusbadge): refine glassmorphic padding and border hover
+[Commit #183] 2026-06-15T21:41:16.740Z - docs: update documentation for AnimatedNumber
+[Commit #79] (ftcxfqo) 2026-05-28T22:29:12.037Z - feat(sidebar): add support for drag and drop widget reordering
