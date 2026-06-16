@@ -164,3 +164,5 @@
 [Commit #83] (appiz4k) 2026-05-29T14:57:55.421Z - style(statusbadge): refine glassmorphic padding and border hover
 [Commit #84] (41m40ps) 2026-05-29T19:12:14.267Z - style(glasscard): refine glassmorphic padding and border hover
 [Commit #188] 2026-06-16T18:47:22.970Z - chore: update dependencies and configuration for GlassCard
+[Commit #189] 2026-06-16T22:46:46.817Z - fix(header): resolve rendering issue in recharts area and donut charts
+[Commit #85] (3kmcv4m) 2026-05-29T22:34:51.114Z - style(orderdetailsmodal): refine glassmorphic padding and border hover
