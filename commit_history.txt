@@ -156,3 +156,5 @@
 [Commit #79] (ftcxfqo) 2026-05-28T22:29:12.037Z - feat(sidebar): add support for drag and drop widget reordering
 [Commit #80] (5y7au65) 2026-05-29T02:07:50.883Z - perf(glasscard): optimize framer motion transition physics
 [Commit #184] 2026-06-16T02:16:22.586Z - refactor(categorychart): streamline state memoization for animated counter numbers
+[Commit #185] 2026-06-16T05:52:59.432Z - docs: update documentation for LoadingReveal
+[Commit #81] (89robf2) 2026-05-29T06:04:06.729Z - chore: update dependencies and configuration for ProductModal
