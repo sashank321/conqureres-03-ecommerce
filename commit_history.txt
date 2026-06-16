@@ -160,3 +160,5 @@
 [Commit #81] (89robf2) 2026-05-29T06:04:06.729Z - chore: update dependencies and configuration for ProductModal
 [Commit #82] (6pgtslj) 2026-05-29T10:24:12.575Z - chore: update dependencies and configuration for WidgetGrid
 [Commit #186] 2026-06-16T09:41:08.278Z - perf(widgetgrid): optimize framer motion transition physics
+[Commit #187] 2026-06-16T14:56:05.124Z - refactor(orderdetailsmodal): streamline state memoization for low stock inventory alerts
+[Commit #83] (appiz4k) 2026-05-29T14:57:55.421Z - style(statusbadge): refine glassmorphic padding and border hover
