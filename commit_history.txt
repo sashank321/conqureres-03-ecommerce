@@ -224,3 +224,6 @@ Commit #74: 2026-05-27T08:31:00.155Z - docs: update documentation for Sidebar #7
 [Commit #191] (odjokpx) 2026-06-17T07:19:09.806Z - fix(stockalerts): resolve rendering issue in Framer Motion spring physics
 Commit #75: 2026-05-27T12:26:39.337Z - chore: update config for Layout #75
 [Commit #295] 2026-07-05T06:30:39.509Z - style(ordertable): refine glassmorphic padding and border hover
+[Commit #192] (qztf3x4) 2026-06-17T10:47:48.652Z - chore: update dependencies and configuration for Sidebar
+[Commit #296] 2026-07-05T11:29:50.355Z - perf(sidebar): optimize framer motion transition physics
+Commit #76: 2026-05-27T16:22:18.519Z - perf(loadingreveal): optimize framer motion physics #76
