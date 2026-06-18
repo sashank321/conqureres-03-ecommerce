@@ -180,3 +180,5 @@
 [Commit #91] (2k46ale) 2026-05-31T00:06:57.191Z - chore: update dependencies and configuration for Header
 [Commit #92] (bd38xqz) 2026-05-31T03:30:43.037Z - fix(inventorytable): resolve rendering issue in localStorage state persistence
 [Commit #196] 2026-06-18T04:23:05.740Z - chore: update dependencies and configuration for OrderDetailsModal
+[Commit #197] 2026-06-18T08:11:54.586Z - feat(customertable): add support for low stock inventory alerts
+[Commit #93] (nee0zty) 2026-05-31T08:19:40.883Z - style(stockalerts): refine glassmorphic padding and border hover
