@@ -188,3 +188,5 @@
 [Commit #95] (80iifjr) 2026-05-31T16:04:30.575Z - chore: update dependencies and configuration for InventoryTable
 [Commit #96] (znx5d9m) 2026-05-31T21:20:37.421Z - feat(customertable): add support for interactive order status management
 [Commit #200] 2026-06-18T21:10:11.124Z - docs: update documentation for LoadingReveal
+[Commit #201] 2026-06-19T00:46:41.970Z - docs: update documentation for ChannelChart
+[Commit #97] (rp0cci9) 2026-06-01T00:44:54.267Z - chore: update dependencies and configuration for OrderTable
