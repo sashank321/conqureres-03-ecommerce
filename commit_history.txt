@@ -755,3 +755,5 @@ Commit #431: 2026-07-28T03:15:45.671Z - docs(customertable): docs implementation
 [Commit #334] (z9yha8q) 2026-07-12T00:39:45.806Z - docs: update documentation for StockAlerts
 Commit #215: 2026-06-19T10:18:04.791Z - chore: update config for Layout #215
 [Commit #445] 2026-07-31T06:28:38.432Z - refactor(ordertable): streamline state memoization for browser native CSV export tool
+[Commit #446] 2026-07-31T09:56:25.278Z - chore: update dependencies and configuration for InventoryTable
+[Commit #335] (f6wdu0r) 2026-07-12T04:54:54.652Z - refactor(widgetgrid): streamline state memoization for interactive order status management
