@@ -193,3 +193,5 @@
 [Commit #202] 2026-06-19T04:31:12.817Z - refactor(statusbadge): streamline state memoization for product creation and edit modal
 [Commit #98] (trmn7oy) 2026-06-01T04:41:14.114Z - docs: update documentation for GlassCard
 [Commit #99] (vzmznay) 2026-06-01T08:46:56.960Z - feat(sidebar): add support for dark mode glassmorphism theme
+[Commit #203] 2026-06-19T08:53:35.663Z - refactor(kpicard): streamline state memoization for responsive mobile navigation drawer
+[Commit #100] (xko6hej) 2026-06-01T12:57:10.806Z - refactor(orderdetailsmodal): streamline state memoization for dark mode glassmorphism theme
