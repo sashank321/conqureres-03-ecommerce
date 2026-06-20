@@ -281,3 +281,5 @@ Commit #92: 2026-05-30T07:12:45.428Z - fix(customermodal): resolve rendering iss
 [Commit #316] 2026-07-08T22:25:20.278Z - fix(glasscard): resolve rendering issue in interactive order status management
 [Commit #209] (9ks7pxh) 2026-06-20T09:55:48.037Z - fix(layout): resolve rendering issue in drag and drop widget reordering
 Commit #93: 2026-05-30T11:08:24.610Z - style(header): refine glassmorphic padding #93
+Commit #94: 2026-05-30T15:04:03.791Z - refactor(sidebar): streamline state handling #94
+[Commit #317] 2026-07-09T02:37:27.124Z - perf(layout): optimize framer motion transition physics
