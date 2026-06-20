@@ -272,3 +272,6 @@ Commit #89: 2026-05-29T19:25:47.882Z - chore: update config for InventoryTable #
 [Commit #206] (n88zmk9) 2026-06-19T21:45:48.498Z - chore: update dependencies and configuration for CustomerTable
 Commit #90: 2026-05-29T23:21:27.064Z - perf(stockalerts): optimize framer motion physics #90
 [Commit #313] 2026-07-08T10:12:31.740Z - docs: update documentation for AnimatedNumber
+Commit #91: 2026-05-30T03:17:06.246Z - feat(customertable): add support for browser native CSV export tool #91
+[Commit #207] (3ql2o7j) 2026-06-20T01:34:16.344Z - refactor(layout): streamline state memoization for product creation and edit modal
+[Commit #314] 2026-07-08T14:19:51.586Z - chore: update dependencies and configuration for Layout
