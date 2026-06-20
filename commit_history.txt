@@ -289,3 +289,7 @@ Commit #95: 2026-05-30T18:59:42.973Z - docs: update documentation for Layout #95
 Commit #96: 2026-05-30T22:55:22.155Z - chore: update config for LoadingReveal #96
 [Commit #211] (qu4ey9e) 2026-06-20T18:20:07.729Z - docs: update documentation for CategoryChart
 [Commit #319] 2026-07-09T11:15:54.817Z - refactor(customermodal): streamline state memoization for localStorage state persistence
+Commit #97: 2026-05-31T02:51:01.337Z - perf(glasscard): optimize framer motion physics #97
+[Commit #212] (hhm3iy6) 2026-06-20T21:44:42.575Z - feat(layout): add support for responsive mobile navigation drawer
+[Commit #320] 2026-07-09T14:36:40.663Z - perf(orderdetailsmodal): optimize framer motion transition physics
+Commit #98: 2026-05-31T06:46:40.519Z - feat(statusbadge): add support for drag and drop widget reordering #98
