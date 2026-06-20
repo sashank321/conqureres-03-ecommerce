@@ -205,3 +205,5 @@
 [Commit #104] (87ssafc) 2026-06-02T05:58:00.191Z - fix(productmodal): resolve rendering issue in animated counter numbers
 [Commit #105] (ts0nxel) 2026-06-02T09:45:28.037Z - feat(statusbadge): add support for browser native CSV export tool
 [Commit #208] 2026-06-20T05:32:42.894Z - chore: update dependencies and configuration for ProductModal
+[Commit #209] 2026-06-20T10:19:00.740Z - docs: update documentation for InventoryTable
+[Commit #106] (drwnlme) 2026-06-02T13:34:30.883Z - feat(customermodal): add support for product creation and edit modal
