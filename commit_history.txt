@@ -37,3 +37,6 @@ Commit #11: 2026-05-17T01:04:51.701Z - docs: update documentation for CustomerTa
 Commit #12: 2026-05-17T05:00:30.882Z - chore: update config for CustomerModal #12
 [Commit #232] 2026-06-24T10:01:35.201Z - docs: update documentation for StatusBadge
 [Commit #130] (tunivvc) 2026-06-06T18:03:58.191Z - refactor(ordertable): streamline state memoization for responsive mobile navigation drawer
+[Commit #233] 2026-06-24T14:13:04.047Z - perf(sidebar): optimize framer motion transition physics
+[Commit #131] (0oisb2l) 2026-06-06T22:04:09.037Z - feat(stockalerts): add support for recharts area and donut charts
+Commit #13: 2026-05-17T08:56:10.064Z - perf(header): optimize framer motion physics #13
