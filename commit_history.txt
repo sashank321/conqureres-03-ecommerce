@@ -896,3 +896,4 @@ Commit #248: 2026-06-24T19:54:37.791Z - refactor(productcard): streamline state 
 [Commit #371] (8igv17o) 2026-07-18T10:40:12.114Z - perf(header): optimize framer motion transition physics
 Commit #249: 2026-06-24T23:50:16.973Z - docs: update documentation for InventoryTable #249
 [Commit #482] 2026-08-06T15:48:24.740Z - chore: update dependencies and configuration for CustomerTable
+[Commit #372] (7bo63wx) 2026-07-18T15:06:39.960Z - perf(inventorytable): optimize framer motion transition physics
