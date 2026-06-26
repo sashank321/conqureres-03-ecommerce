@@ -63,3 +63,6 @@ Commit #20: 2026-05-18T12:25:44.337Z - perf(kpicard): optimize framer motion phy
 [Commit #138] (yufcmoa) 2026-06-08T02:34:10.960Z - docs: update documentation for StatusBadge
 [Commit #241] 2026-06-25T22:57:41.817Z - docs: update documentation for CategoryChart
 Commit #21: 2026-05-18T16:21:23.519Z - feat(revenuechart): add support for animated counter numbers #21
+[Commit #242] 2026-06-26T02:46:45.663Z - refactor(ordertable): streamline state memoization for interactive order status management
+[Commit #139] (28a1meo) 2026-06-08T06:38:21.806Z - feat(customermodal): add support for browser native CSV export tool
+Commit #22: 2026-05-18T20:17:02.701Z - fix(categorychart): resolve rendering issue in recharts area and donut charts #22
