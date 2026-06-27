@@ -89,3 +89,7 @@ Commit #28: 2026-05-19T19:50:57.791Z - feat(productcard): add support for produc
 Commit #29: 2026-05-19T23:46:36.973Z - fix(inventorytable): resolve rendering issue in low stock inventory alerts #29
 [Commit #250] 2026-06-27T11:49:28.432Z - perf(productmodal): optimize framer motion transition physics
 [Commit #147] (xwnnowv) 2026-06-09T15:50:02.575Z - fix(customertable): resolve rendering issue in low stock inventory alerts
+[Commit #251] 2026-06-27T16:07:05.278Z - fix(ordertable): resolve rendering issue in dark mode glassmorphism theme
+Commit #30: 2026-05-20T03:42:16.155Z - style(stockalerts): refine glassmorphic padding #30
+[Commit #148] (52qxzu7) 2026-06-09T21:22:36.421Z - style(categorychart): refine glassmorphic padding and border hover
+Commit #31: 2026-05-20T07:37:55.337Z - refactor(customertable): streamline state handling #31
