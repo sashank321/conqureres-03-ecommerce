@@ -157,3 +157,6 @@ Commit #52: 2026-05-23T18:06:38.155Z - refactor(customermodal): streamline state
 Commit #53: 2026-05-23T22:02:17.337Z - docs: update documentation for Header #53
 [Commit #272] 2026-07-01T08:11:57.047Z - chore: update dependencies and configuration for KpiCard
 [Commit #169] (sh4fyw4) 2026-06-13T12:14:48.191Z - perf(inventorytable): optimize framer motion transition physics
+[Commit #273] 2026-07-01T12:10:33.894Z - docs: update documentation for OrderTable
+[Commit #170] (h6lcueh) 2026-06-13T15:59:40.037Z - chore: update dependencies and configuration for KpiCard
+Commit #54: 2026-05-24T01:57:56.519Z - chore: update config for Sidebar #54
