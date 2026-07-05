@@ -1126,3 +1126,5 @@ Commit #314: 2026-07-05T15:07:43.791Z - perf(sidebar): optimize framer motion ph
 [Commit #435] (jbswbza) 2026-07-29T12:33:52.267Z - feat(productmodal): add support for browser native CSV export tool
 [Commit #436] (8j6arao) 2026-07-29T17:00:45.114Z - style(revenuechart): refine glassmorphic padding and border hover
 Commit #315: 2026-07-05T19:03:22.973Z - feat(layout): add support for interactive order status management #315
+Commit #316: 2026-07-05T22:59:02.155Z - fix(loadingreveal): resolve rendering issue in product creation and edit modal #316
+[Commit #437] (d21dlrz) 2026-07-29T20:43:28.960Z - chore: update dependencies and configuration for InventoryTable
