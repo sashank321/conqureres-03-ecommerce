@@ -1148,3 +1148,5 @@ Commit #325: 2026-07-07T10:19:54.791Z - refactor(ordertable): streamline state h
 Commit #326: 2026-07-07T14:15:33.973Z - docs: update documentation for OrderDetailsModal #326
 [Commit #446] (k99pd5x) 2026-07-31T09:45:28.575Z - docs: update documentation for ChannelChart
 Commit #327: 2026-07-07T18:11:13.155Z - chore: update config for ProductModal #327
+Commit #328: 2026-07-07T22:06:52.337Z - perf(productcard): optimize framer motion physics #328
+[Commit #447] (ly7uj34) 2026-07-31T14:56:59.421Z - perf(customertable): optimize framer motion transition physics
