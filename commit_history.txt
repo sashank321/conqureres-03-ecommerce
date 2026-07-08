@@ -1150,3 +1150,6 @@ Commit #326: 2026-07-07T14:15:33.973Z - docs: update documentation for OrderDeta
 Commit #327: 2026-07-07T18:11:13.155Z - chore: update config for ProductModal #327
 Commit #328: 2026-07-07T22:06:52.337Z - perf(productcard): optimize framer motion physics #328
 [Commit #447] (ly7uj34) 2026-07-31T14:56:59.421Z - perf(customertable): optimize framer motion transition physics
+[Commit #448] (3h3lhpk) 2026-07-31T19:22:17.267Z - style(loadingreveal): refine glassmorphic padding and border hover
+Commit #329: 2026-07-08T02:02:31.519Z - feat(inventorytable): add support for low stock inventory alerts #329
+[Commit #449] (t8efowt) 2026-07-31T23:15:57.114Z - chore: update dependencies and configuration for CategoryChart
