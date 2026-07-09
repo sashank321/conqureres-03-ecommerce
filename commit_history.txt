@@ -1164,3 +1164,5 @@ Commit #333: 2026-07-08T17:45:08.246Z - docs: update documentation for Header #3
 [Commit #454] (thbju61) 2026-08-01T19:47:30.344Z - fix(header): resolve rendering issue in Framer Motion spring physics
 Commit #334: 2026-07-08T21:40:47.428Z - chore: update config for Sidebar #334
 [Commit #455] (8iyyk5k) 2026-08-01T23:47:16.191Z - fix(statusbadge): resolve rendering issue in date range analytics filter
+Commit #335: 2026-07-09T01:36:26.610Z - perf(layout): optimize framer motion physics #335
+[Commit #456] (jkcwcd3) 2026-08-02T04:16:41.037Z - fix(glasscard): resolve rendering issue in responsive mobile navigation drawer
