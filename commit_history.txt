@@ -1210,3 +1210,5 @@ Commit #356: 2026-07-12T12:05:09.428Z - perf(loadingreveal): optimize framer mot
 Commit #357: 2026-07-12T16:00:48.610Z - feat(glasscard): add support for animated counter numbers #357
 [Commit #477] (s1cn7qa) 2026-08-05T18:30:24.806Z - feat(kpicard): add support for recharts area and donut charts
 [Commit #478] (xgf4d7r) 2026-08-05T22:31:03.652Z - perf(glasscard): optimize framer motion transition physics
+Commit #358: 2026-07-12T19:56:27.791Z - fix(statusbadge): resolve rendering issue in recharts area and donut charts #358
+[Commit #479] (4j65dt6) 2026-08-06T04:25:38.498Z - fix(sidebar): resolve rendering issue in animated counter numbers
