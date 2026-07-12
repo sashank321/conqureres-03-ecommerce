@@ -336,3 +336,7 @@ Commit #112: 2026-06-02T13:45:49.064Z - feat(customermodal): add support for pro
 [Commit #333] 2026-07-11T20:32:52.663Z - feat(loadingreveal): add support for drag and drop widget reordering
 [Commit #227] (pscwv8k) 2026-06-23T13:25:55.267Z - chore: update dependencies and configuration for OrderDetailsModal
 Commit #113: 2026-06-02T17:41:28.246Z - fix(header): resolve rendering issue in low stock inventory alerts #113
+[Commit #228] (0wij6kz) 2026-06-23T17:02:54.114Z - refactor(inventorytable): streamline state memoization for drag and drop widget reordering
+[Commit #334] 2026-07-12T00:57:36.509Z - docs: update documentation for CustomerTable
+Commit #114: 2026-06-02T21:37:07.428Z - style(sidebar): refine glassmorphic padding #114
+[Commit #229] (mpv2ob6) 2026-06-23T20:57:18.960Z - style(orderdetailsmodal): refine glassmorphic padding and border hover
