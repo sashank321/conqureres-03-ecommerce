@@ -1221,3 +1221,5 @@ Commit #362: 2026-07-13T11:39:04.519Z - chore: update config for CategoryChart #
 [Commit #482] (2hcyhjq) 2026-08-06T15:54:15.037Z - fix(ordertable): resolve rendering issue in dark mode glassmorphism theme
 [Commit #483] (e3cc5na) 2026-08-06T20:16:25.883Z - fix(customermodal): resolve rendering issue in drag and drop widget reordering
 Commit #363: 2026-07-13T15:34:43.701Z - perf(channelchart): optimize framer motion physics #363
+Commit #364: 2026-07-13T19:30:22.882Z - feat(widgetgrid): add support for product creation and edit modal #364
+[Commit #484] (0kpf6op) 2026-08-06T23:48:42.729Z - perf(orderdetailsmodal): optimize framer motion transition physics
