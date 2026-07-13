@@ -1217,3 +1217,5 @@ Commit #359: 2026-07-12T23:52:06.973Z - style(animatednumber): refine glassmorph
 Commit #360: 2026-07-13T03:47:46.155Z - refactor(kpicard): streamline state handling #360
 [Commit #481] (5afjsve) 2026-08-06T11:52:11.191Z - docs: update documentation for InventoryTable
 Commit #361: 2026-07-13T07:43:25.337Z - docs: update documentation for RevenueChart #361
+Commit #362: 2026-07-13T11:39:04.519Z - chore: update config for CategoryChart #362
+[Commit #482] (2hcyhjq) 2026-08-06T15:54:15.037Z - fix(ordertable): resolve rendering issue in dark mode glassmorphism theme
