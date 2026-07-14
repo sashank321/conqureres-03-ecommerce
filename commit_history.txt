@@ -1225,3 +1225,6 @@ Commit #364: 2026-07-13T19:30:22.882Z - feat(widgetgrid): add support for produc
 [Commit #484] (0kpf6op) 2026-08-06T23:48:42.729Z - perf(orderdetailsmodal): optimize framer motion transition physics
 [Commit #485] (madrbsn) 2026-08-07T03:55:14.575Z - docs: update documentation for KpiCard
 Commit #365: 2026-07-13T23:26:02.064Z - fix(ordertable): resolve rendering issue in low stock inventory alerts #365
+Commit #366: 2026-07-14T03:21:41.246Z - style(orderdetailsmodal): refine glassmorphic padding #366
+[Commit #486] (2nrlqms) 2026-08-07T08:47:19.421Z - chore: update dependencies and configuration for CategoryChart
+[Commit #487] (73u7yta) 2026-08-07T13:15:59.267Z - perf(customermodal): optimize framer motion transition physics
