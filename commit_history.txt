@@ -1232,3 +1232,5 @@ Commit #367: 2026-07-14T07:17:20.428Z - refactor(productmodal): streamline state
 [Commit #488] (xaqh3h9) 2026-08-07T16:55:41.114Z - refactor(inventorytable): streamline state memoization for animated counter numbers
 [Commit #489] (s9sx68f) 2026-08-07T21:26:07.960Z - style(animatednumber): refine glassmorphic padding and border hover
 Commit #368: 2026-07-14T11:12:59.610Z - docs: update documentation for ProductCard #368
+Commit #369: 2026-07-14T15:08:38.791Z - chore: update config for InventoryTable #369
+[Commit #490] (dht9l51) 2026-08-08T00:54:55.806Z - fix(header): resolve rendering issue in browser native CSV export tool
