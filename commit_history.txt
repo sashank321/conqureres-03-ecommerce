@@ -1244,3 +1244,5 @@ Commit #373: 2026-07-15T06:51:15.519Z - style(header): refine glassmorphic paddi
 [Commit #494] (vwf271n) 2026-08-08T18:27:37.191Z - chore: update dependencies and configuration for CategoryChart
 Commit #374: 2026-07-15T10:46:54.701Z - refactor(sidebar): streamline state handling #374
 [Commit #495] (ru9g2t7) 2026-08-08T22:25:25.037Z - chore: update dependencies and configuration for AnimatedNumber
+[Commit #496] (qhhn796) 2026-08-09T01:49:33.883Z - perf(glasscard): optimize framer motion transition physics
+Commit #375: 2026-07-15T14:42:33.882Z - docs: update documentation for Layout #375
