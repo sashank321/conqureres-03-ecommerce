@@ -1242,3 +1242,5 @@ Commit #372: 2026-07-15T02:55:36.337Z - fix(customermodal): resolve rendering is
 Commit #373: 2026-07-15T06:51:15.519Z - style(header): refine glassmorphic padding #373
 [Commit #493] (le8os4f) 2026-08-08T14:28:01.344Z - perf(orderdetailsmodal): optimize framer motion transition physics
 [Commit #494] (vwf271n) 2026-08-08T18:27:37.191Z - chore: update dependencies and configuration for CategoryChart
+Commit #374: 2026-07-15T10:46:54.701Z - refactor(sidebar): streamline state handling #374
+[Commit #495] (ru9g2t7) 2026-08-08T22:25:25.037Z - chore: update dependencies and configuration for AnimatedNumber
