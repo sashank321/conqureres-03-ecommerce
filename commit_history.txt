@@ -1258,3 +1258,5 @@ Commit #379: 2026-07-16T06:25:10.610Z - fix(animatednumber): resolve rendering i
 Commit #380: 2026-07-16T10:20:49.791Z - style(kpicard): refine glassmorphic padding #380
 [Commit #502] (vbw4c9x) 2026-08-10T02:39:28.960Z - fix(stockalerts): resolve rendering issue in dark mode glassmorphism theme
 Commit #381: 2026-07-16T14:16:28.973Z - refactor(revenuechart): streamline state handling #381
+Commit #382: 2026-07-16T18:12:08.155Z - docs: update documentation for CategoryChart #382
+[Commit #503] (u5a4yde) 2026-08-10T07:01:23.806Z - chore: update dependencies and configuration for Sidebar
