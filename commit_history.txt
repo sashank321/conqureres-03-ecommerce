@@ -1266,3 +1266,6 @@ Commit #384: 2026-07-17T02:03:26.519Z - perf(widgetgrid): optimize framer motion
 [Commit #505] (unqlpes) 2026-08-10T15:51:47.498Z - perf(sidebar): optimize framer motion transition physics
 [Commit #506] (5oz7oxu) 2026-08-10T20:18:54.344Z - refactor(channelchart): streamline state memoization for product creation and edit modal
 Commit #385: 2026-07-17T05:59:05.701Z - feat(ordertable): add support for Framer Motion spring physics #385
+[Commit #507] (krj8i6m) 2026-08-10T23:30:19.191Z - docs: update documentation for LoadingReveal
+Commit #386: 2026-07-17T09:54:44.882Z - fix(orderdetailsmodal): resolve rendering issue in drag and drop widget reordering #386
+[Commit #508] (etxddc6) 2026-08-11T04:02:30.037Z - perf(revenuechart): optimize framer motion transition physics
