@@ -506,3 +506,8 @@ Commit #373: 2026-07-18T04:37:04.814Z - style(header): style implementation for 
 [Commit #377] 2026-07-19T12:25:04.894Z - chore: update dependencies and configuration for InventoryTable
 [Commit #272] (j4wdfdj) 2026-07-01T07:31:56.344Z - refactor(revenuechart): streamline state memoization for browser native CSV export tool
 [Commit #378] 2026-07-19T15:54:20.740Z - docs: update documentation for CustomerTable
+Commit #374: 2026-07-18T08:43:57.242Z - refactor(sidebar): refactor implementation for drag and drop widget reordering #374
+Commit #154: 2026-06-09T10:43:14.701Z - feat(sidebar): add support for recharts area and donut charts #154
+[Commit #273] (fppyyub) 2026-07-01T12:28:23.191Z - docs: update documentation for KpiCard
+[Commit #379] 2026-07-19T20:21:50.586Z - perf(stockalerts): optimize framer motion transition physics
+[Commit #274] (nj8fovv) 2026-07-01T15:43:12.037Z - docs: update documentation for AnimatedNumber
