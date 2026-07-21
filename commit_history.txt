@@ -589,3 +589,5 @@ Commit #174: 2026-06-12T17:16:18.337Z - perf(sidebar): optimize framer motion ph
 [Commit #399] 2026-07-23T07:25:12.509Z - refactor(layout): streamline state memoization for product creation and edit modal
 [Commit #400] 2026-07-23T10:43:47.355Z - fix(customermodal): resolve rendering issue in product creation and edit modal
 Commit #392: 2026-07-21T10:47:40.957Z - feat(customermodal): feat implementation for responsive mobile navigation drawer #392
+[Commit #294] (hv9exs4) 2026-07-05T03:12:05.960Z - chore: update dependencies and configuration for InventoryTable
+Commit #175: 2026-06-12T21:11:57.519Z - feat(layout): add support for browser native CSV export tool #175
