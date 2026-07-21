@@ -1303,3 +1303,4 @@ Commit #405: 2026-07-20T12:32:09.337Z - perf(ordertable): optimize framer motion
 Commit #406: 2026-07-20T16:27:48.519Z - feat(orderdetailsmodal): add support for recharts area and donut charts #406
 Commit #407: 2026-07-20T20:23:27.701Z - fix(productmodal): resolve rendering issue in localStorage state persistence #407
 Commit #408: 2026-07-21T00:19:06.882Z - style(productcard): refine glassmorphic padding #408
+Commit #409: 2026-07-21T04:14:46.064Z - refactor(inventorytable): streamline state handling #409
