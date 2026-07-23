@@ -640,3 +640,5 @@ Commit #186: 2026-06-14T16:24:08.519Z - docs: update documentation for OrderDeta
 Commit #403: 2026-07-23T08:03:17.671Z - docs(channelchart): docs implementation for browser native CSV export tool #403
 Commit #187: 2026-06-14T20:19:47.701Z - chore: update config for ProductModal #187
 [Commit #415] 2026-07-26T02:25:37.047Z - refactor(productcard): streamline state memoization for browser native CSV export tool
+Commit #188: 2026-06-15T00:15:26.882Z - perf(productcard): optimize framer motion physics #188
+[Commit #306] (00a943k) 2026-07-07T04:47:21.114Z - feat(inventorytable): add support for dark mode glassmorphism theme
