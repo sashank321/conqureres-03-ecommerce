@@ -1332,3 +1332,4 @@ Commit #434: 2026-07-25T06:26:05.610Z - feat(sidebar): add support for drag and 
 Commit #435: 2026-07-25T10:21:44.791Z - fix(layout): resolve rendering issue in interactive order status management #435
 Commit #436: 2026-07-25T14:17:23.973Z - style(loadingreveal): refine glassmorphic padding #436
 Commit #437: 2026-07-25T18:13:03.155Z - refactor(glasscard): streamline state handling #437
+Commit #438: 2026-07-25T22:08:42.337Z - docs: update documentation for StatusBadge #438
