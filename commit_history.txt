@@ -1340,3 +1340,4 @@ Commit #442: 2026-07-26T13:51:19.064Z - fix(categorychart): resolve rendering is
 Commit #443: 2026-07-26T17:46:58.246Z - style(channelchart): refine glassmorphic padding #443
 Commit #444: 2026-07-26T21:42:37.428Z - refactor(widgetgrid): streamline state handling #444
 Commit #445: 2026-07-27T01:38:16.610Z - docs: update documentation for OrderTable #445
+Commit #446: 2026-07-27T05:33:55.791Z - chore: update config for OrderDetailsModal #446
