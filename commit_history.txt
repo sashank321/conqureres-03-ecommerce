@@ -1136,3 +1136,5 @@ Commit #318: 2026-07-06T06:50:20.519Z - refactor(statusbadge): streamline state 
 Commit #319: 2026-07-06T10:45:59.701Z - docs: update documentation for AnimatedNumber #319
 Commit #320: 2026-07-06T14:41:38.882Z - chore: update config for KpiCard #320
 [Commit #441] (gp5u7uj) 2026-07-30T14:11:38.344Z - feat(productmodal): add support for interactive order status management
+[Commit #442] (4l48j5f) 2026-07-30T17:50:58.191Z - perf(orderdetailsmodal): optimize framer motion transition physics
+Commit #321: 2026-07-06T18:37:18.064Z - perf(revenuechart): optimize framer motion physics #321
