@@ -1155,3 +1155,5 @@ Commit #329: 2026-07-08T02:02:31.519Z - feat(inventorytable): add support for lo
 [Commit #449] (t8efowt) 2026-07-31T23:15:57.114Z - chore: update dependencies and configuration for CategoryChart
 Commit #330: 2026-07-08T05:58:10.701Z - fix(stockalerts): resolve rendering issue in date range analytics filter #330
 [Commit #450] (xeynbmv) 2026-08-01T02:55:20.960Z - chore: update dependencies and configuration for ChannelChart
+[Commit #451] (04jhc67) 2026-08-01T07:21:10.806Z - feat(widgetgrid): add support for responsive mobile navigation drawer
+Commit #331: 2026-07-08T09:53:49.882Z - style(customertable): refine glassmorphic padding #331
