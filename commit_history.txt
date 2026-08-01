@@ -860,3 +860,8 @@ Commit #240: 2026-06-23T12:29:24.337Z - style(kpicard): refine glassmorphic padd
 Commit #455: 2026-08-01T06:00:43.957Z - feat(layout): feat implementation for localStorage state persistence #455
 [Commit #361] (8br3e1d) 2026-07-16T17:19:46.652Z - docs: update documentation for ChannelChart
 [Commit #474] 2026-08-05T07:28:06.970Z - feat(customertable): add support for dark mode glassmorphism theme
+Commit #456: 2026-08-01T10:07:36.385Z - fix(loadingreveal): fix implementation for dark mode glassmorphism theme #456
+[Commit #362] (6vcwnn9) 2026-07-16T21:40:59.498Z - style(categorychart): refine glassmorphic padding and border hover
+Commit #241: 2026-06-23T16:25:03.519Z - refactor(revenuechart): streamline state handling #241
+[Commit #475] 2026-08-05T10:31:36.817Z - feat(revenuechart): add support for dark mode glassmorphism theme
+[Commit #363] (um3rtc5) 2026-07-17T02:06:26.344Z - feat(widgetgrid): add support for dark mode glassmorphism theme
