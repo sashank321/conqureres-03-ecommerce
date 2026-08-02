@@ -898,3 +898,6 @@ Commit #249: 2026-06-24T23:50:16.973Z - docs: update documentation for Inventory
 [Commit #482] 2026-08-06T15:48:24.740Z - chore: update dependencies and configuration for CustomerTable
 [Commit #372] (7bo63wx) 2026-07-18T15:06:39.960Z - perf(inventorytable): optimize framer motion transition physics
 Commit #465: 2026-08-02T23:09:28.242Z - refactor(ordertable): refactor implementation for animated counter numbers #465
+Commit #250: 2026-06-25T03:45:56.155Z - chore: update config for StockAlerts #250
+[Commit #373] (v68v6a5) 2026-07-18T18:59:13.806Z - style(stockalerts): refine glassmorphic padding and border hover
+[Commit #483] 2026-08-06T19:56:24.586Z - feat(header): add support for dark mode glassmorphism theme
