@@ -1166,3 +1166,7 @@ Commit #334: 2026-07-08T21:40:47.428Z - chore: update config for Sidebar #334
 [Commit #455] (8iyyk5k) 2026-08-01T23:47:16.191Z - fix(statusbadge): resolve rendering issue in date range analytics filter
 Commit #335: 2026-07-09T01:36:26.610Z - perf(layout): optimize framer motion physics #335
 [Commit #456] (jkcwcd3) 2026-08-02T04:16:41.037Z - fix(glasscard): resolve rendering issue in responsive mobile navigation drawer
+Commit #336: 2026-07-09T05:32:05.791Z - feat(loadingreveal): add support for dark mode glassmorphism theme #336
+[Commit #457] (rhh8mpa) 2026-08-02T07:41:58.883Z - style(layout): refine glassmorphic padding and border hover
+[Commit #458] (4msgggw) 2026-08-02T12:05:51.729Z - feat(glasscard): add support for responsive mobile navigation drawer
+Commit #337: 2026-07-09T09:27:44.973Z - fix(glasscard): resolve rendering issue in Framer Motion spring physics #337
