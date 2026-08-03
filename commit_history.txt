@@ -1383,3 +1383,4 @@ Commit #485: 2026-08-02T14:44:23.882Z - style(ordertable): refine glassmorphic p
 Commit #486: 2026-08-02T18:40:03.064Z - refactor(orderdetailsmodal): streamline state handling #486
 Commit #487: 2026-08-02T22:35:42.246Z - docs: update documentation for ProductModal #487
 Commit #488: 2026-08-03T02:31:21.428Z - chore: update config for ProductCard #488
+Commit #489: 2026-08-03T06:27:00.610Z - perf(inventorytable): optimize framer motion physics #489
