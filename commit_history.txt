@@ -1186,3 +1186,5 @@ Commit #343: 2026-07-10T09:01:40.064Z - feat(channelchart): add support for brow
 Commit #344: 2026-07-10T12:57:19.246Z - fix(widgetgrid): resolve rendering issue in responsive mobile navigation drawer #344
 Commit #345: 2026-07-10T16:52:58.428Z - style(ordertable): refine glassmorphic padding #345
 [Commit #466] (wbt9c6y) 2026-08-03T22:18:58.498Z - docs: update documentation for Header
+[Commit #467] (hyht2hm) 2026-08-04T02:14:52.344Z - perf(categorychart): optimize framer motion transition physics
+Commit #346: 2026-07-10T20:48:37.610Z - refactor(orderdetailsmodal): streamline state handling #346
