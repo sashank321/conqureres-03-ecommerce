@@ -1390,3 +1390,4 @@ Commit #492: 2026-08-03T18:13:58.155Z - style(customermodal): refine glassmorphi
 Commit #493: 2026-08-03T22:09:37.337Z - refactor(header): streamline state handling #493
 Commit #494: 2026-08-04T02:05:16.519Z - docs: update documentation for Sidebar #494
 Commit #495: 2026-08-04T06:00:55.701Z - chore: update config for Layout #495
+Commit #496: 2026-08-04T09:56:34.882Z - perf(loadingreveal): optimize framer motion physics #496
