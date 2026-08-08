@@ -1237,3 +1237,5 @@ Commit #369: 2026-07-14T15:08:38.791Z - chore: update config for InventoryTable 
 [Commit #491] (ymquoim) 2026-08-08T05:09:26.652Z - docs: update documentation for Header
 Commit #370: 2026-07-14T19:04:17.973Z - perf(stockalerts): optimize framer motion physics #370
 Commit #371: 2026-07-14T22:59:57.155Z - feat(customertable): add support for localStorage state persistence #371
+[Commit #492] (7zd3nss) 2026-08-08T10:24:22.498Z - fix(inventorytable): resolve rendering issue in product creation and edit modal
+Commit #372: 2026-07-15T02:55:36.337Z - fix(customermodal): resolve rendering issue in dark mode glassmorphism theme #372
