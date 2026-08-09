@@ -1420,3 +1420,4 @@ Commit #522: 2026-08-08T16:03:33.610Z - docs: update documentation for CategoryC
 Commit #523: 2026-08-08T19:59:12.791Z - chore: update config for ChannelChart #523
 Commit #524: 2026-08-08T23:54:51.973Z - perf(widgetgrid): optimize framer motion physics #524
 Commit #525: 2026-08-09T03:50:31.155Z - feat(ordertable): add support for animated counter numbers #525
+Commit #526: 2026-08-09T07:46:10.337Z - fix(orderdetailsmodal): resolve rendering issue in recharts area and donut charts #526
