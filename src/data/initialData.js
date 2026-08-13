@@ -315,16 +315,17 @@ export const INITIAL_CUSTOMERS = [
   }
 ];
 
+// Soft Pastel Palette for Charts
 export const CATEGORY_SALES = [
-  { name: 'Electronics', value: 45, color: '#6366f1' },
-  { name: 'Fashion', value: 25, color: '#06b6d4' },
-  { name: 'Home & Living', value: 18, color: '#8b5cf6' },
-  { name: 'Beauty & Fitness', value: 12, color: '#ec4899' }
+  { name: 'Electronics', value: 45, color: '#a5b4fc' }, // Pastel Lavender
+  { name: 'Fashion', value: 25, color: '#7dd3fc' },    // Pastel Sky
+  { name: 'Home & Living', value: 18, color: '#c084fc' }, // Pastel Purple
+  { name: 'Beauty & Fitness', value: 12, color: '#f472b6' } // Pastel Rose
 ];
 
 export const CHANNEL_REVENUE = [
-  { channel: 'Direct Website', revenue: 1450000, color: '#6366f1' },
-  { channel: 'Mobile App', revenue: 680000, color: '#06b6d4' },
-  { channel: 'Marketplace', revenue: 240000, color: '#8b5cf6' },
-  { channel: 'Social Commerce', revenue: 116240, color: '#ec4899' }
+  { channel: 'Direct Website', revenue: 1450000, color: '#a5b4fc' },
+  { channel: 'Mobile App', revenue: 680000, color: '#7dd3fc' },
+  { channel: 'Marketplace', revenue: 240000, color: '#c084fc' },
+  { channel: 'Social Commerce', revenue: 116240, color: '#f472b6' }
 ];

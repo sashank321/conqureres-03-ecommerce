@@ -4,18 +4,18 @@
 
 @layer base {
   :root {
-    --bg-main: #060913;
-    --bg-card: rgba(255, 255, 255, 0.08);
-    --border-card: rgba(255, 255, 255, 0.22);
-    --text-primary: #ffffff;
+    --bg-main: #0b0f19;
+    --bg-card: rgba(15, 23, 42, 0.35);
+    --border-card: rgba(255, 255, 255, 0.18);
+    --text-primary: #f8fafc;
     --text-secondary: #cbd5e1;
   }
 
   .dark {
-    --bg-main: #030712;
-    --bg-card: rgba(15, 23, 42, 0.25);
-    --border-card: rgba(255, 255, 255, 0.2);
-    --text-primary: #ffffff;
+    --bg-main: #060913;
+    --bg-card: rgba(15, 23, 42, 0.3);
+    --border-card: rgba(255, 255, 255, 0.18);
+    --text-primary: #f8fafc;
     --text-secondary: #94a3b8;
   }
 
@@ -25,75 +25,78 @@
   }
 }
 
-/* EXTREME LIQUID GLASSMORPHISM TOKENS */
+/* ACRYLIC FROSTED GLASS TOKENS */
 .glass-panel {
-  background: rgba(15, 23, 42, 0.25) !important;
-  backdrop-filter: blur(32px) saturate(220%) brightness(110%) !important;
-  -webkit-backdrop-filter: blur(32px) saturate(220%) brightness(110%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(15, 23, 42, 0.32) !important;
+  backdrop-filter: blur(36px) saturate(160%) contrast(105%) !important;
+  -webkit-backdrop-filter: blur(36px) saturate(160%) contrast(105%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
   box-shadow: 
-    0 20px 50px 0 rgba(0, 0, 0, 0.45),
-    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.35),
+    0 16px 45px 0 rgba(0, 0, 0, 0.35),
+    inset 0 1.5px 1px 0 rgba(255, 255, 255, 0.28),
     inset 0 -1px 1px 0 rgba(0, 0, 0, 0.2) !important;
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 .glass-panel-hover {
-  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 .glass-panel-hover:hover {
-  transform: translateY(-4px) scale(1.01);
-  background: rgba(15, 23, 42, 0.38) !important;
-  border-color: rgba(99, 102, 241, 0.55) !important;
+  transform: translateY(-4px) scale(1.01) !important;
+  background: rgba(15, 23, 42, 0.42) !important;
+  border-color: rgba(165, 180, 252, 0.45) !important;
   box-shadow: 
-    0 25px 60px -10px rgba(0, 0, 0, 0.6),
-    0 0 35px 0 rgba(99, 102, 241, 0.35),
-    inset 0 1px 2px 0 rgba(255, 255, 255, 0.5) !important;
+    0 24px 55px -10px rgba(0, 0, 0, 0.5),
+    0 0 35px 0 rgba(165, 180, 252, 0.2),
+    inset 0 1.5px 2px 0 rgba(255, 255, 255, 0.4) !important;
 }
 
-/* Glass Inputs & Selects */
+/* Pastel Acrylic Inputs & Selects */
 input, select, textarea {
-  background: rgba(0, 0, 0, 0.3) !important;
-  backdrop-filter: blur(20px) saturate(180%) !important;
-  -webkit-backdrop-filter: blur(20px) saturate(180%) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  background: rgba(0, 0, 0, 0.25) !important;
+  backdrop-filter: blur(24px) saturate(150%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(150%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
   color: #ffffff !important;
-  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.1) !important;
 }
 
 input:focus, select:focus, textarea:focus {
-  border-color: rgba(99, 102, 241, 0.7) !important;
-  box-shadow: 0 0 20px rgba(99, 102, 241, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(165, 180, 252, 0.6) !important;
+  box-shadow: 0 0 25px rgba(165, 180, 252, 0.3), inset 0 1px 1px rgba(255, 255, 255, 0.3) !important;
 }
 
-/* Glass Tables */
+/* Acrylic Tables */
 table {
   background: transparent !important;
 }
 
 thead tr {
-  background: rgba(255, 255, 255, 0.08) !important;
-  backdrop-filter: blur(20px) !important;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.18) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(24px) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
 }
 
 tbody tr {
-  background: rgba(0, 0, 0, 0.15) !important;
-  backdrop-filter: blur(14px) !important;
-  transition: all 0.2s ease !important;
+  background: rgba(0, 0, 0, 0.12) !important;
+  backdrop-filter: blur(16px) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
 }
 
 tbody tr:hover {
-  background: rgba(255, 255, 255, 0.12) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  transform: scale(1.002);
 }
 
-/* Recharts Glass Tooltip */
+/* Recharts Pastel Acrylic Tooltip */
 .recharts-default-tooltip {
-  background-color: rgba(15, 23, 42, 0.55) !important;
-  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  background-color: rgba(15, 23, 42, 0.65) !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
   border-radius: 20px !important;
-  backdrop-filter: blur(32px) saturate(220%) !important;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), inset 0 1px 1px rgba(255, 255, 255, 0.4) !important;
+  backdrop-filter: blur(36px) saturate(180%) !important;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), inset 0 1px 1.5px rgba(255, 255, 255, 0.35) !important;
   color: #ffffff !important;
 }
 

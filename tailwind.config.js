@@ -8,53 +8,40 @@ export default {
   theme: {
     extend: {
       colors: {
+        pastel: {
+          indigo: '#a5b4fc',
+          purple: '#c084fc',
+          mint: '#6ee7b7',
+          sky: '#7dd3fc',
+          rose: '#f472b6',
+          peach: '#fdba74',
+          lavender: '#e0e7ff',
+        },
         brand: {
           50: '#eef2ff',
           100: '#e0e7ff',
-          400: '#818cf8',
-          500: '#6366f1',
-          600: '#4f46e5',
-          700: '#4338ca',
-          accent: '#06b6d4', // Cyan accent
-          purple: '#8b5cf6', // Violet accent
+          400: '#a5b4fc',
+          500: '#818cf8',
+          600: '#6366f1',
+          accent: '#7dd3fc',
         },
         dark: {
-          bg: '#0b0f19',
-          surface: '#111827',
-          card: '#161e2e',
-          border: 'rgba(255, 255, 255, 0.08)',
-          hover: 'rgba(255, 255, 255, 0.04)',
-        },
-        light: {
-          bg: '#f8fafc',
-          surface: '#ffffff',
-          card: '#ffffff',
-          border: 'rgba(0, 0, 0, 0.08)',
-          hover: 'rgba(0, 0, 0, 0.02)',
+          bg: '#080c16',
+          surface: '#0f172a',
+          card: 'rgba(15, 23, 42, 0.32)',
+          border: 'rgba(255, 255, 255, 0.15)',
         }
       },
       fontFamily: {
         sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
       },
       boxShadow: {
-        'glass-sm': '0 4px 16px 0 rgba(0, 0, 0, 0.12)',
-        'glass-md': '0 8px 32px 0 rgba(0, 0, 0, 0.2)',
-        'glass-glow': '0 0 25px -5px rgba(99, 102, 241, 0.25)',
-        'light-glow': '0 10px 30px -5px rgba(99, 102, 241, 0.15)',
+        'acrylic-sm': '0 4px 20px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px 0 rgba(255, 255, 255, 0.25)',
+        'acrylic-md': '0 12px 40px 0 rgba(0, 0, 0, 0.35), inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.3)',
+        'acrylic-glow': '0 0 35px 0 rgba(165, 180, 252, 0.25), inset 0 1px 2px 0 rgba(255, 255, 255, 0.4)',
       },
       backdropBlur: {
-        xs: '4px',
-        glass: '16px',
-      },
-      animation: {
-        'pulse-subtle': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'float': 'float 6s ease-in-out infinite',
-      },
-      keyframes: {
-        float: {
-          '0%, 100%': { transform: 'translateY(0px)' },
-          '50%': { transform: 'translateY(-6px)' },
-        }
+        acrylic: '36px',
       }
     },
   },
