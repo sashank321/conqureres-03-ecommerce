@@ -44,22 +44,22 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
         {/* Logo Branding */}
         <div className="flex items-center justify-between mb-8 px-2">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-brand-600 via-brand-500 to-brand-accent flex items-center justify-center shadow-lg shadow-brand-500/40 ring-1 ring-white/30">
+            <div className="w-10 h-10 rounded-2xl bg-white/10 backdrop-blur-xl flex items-center justify-center shadow-lg border border-white/30">
               <Zap className="w-5 h-5 text-white fill-current" />
             </div>
             <div>
-              <h1 className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-brand-300 bg-clip-text text-transparent drop-shadow-sm">
+              <h1 className="text-xl font-extrabold tracking-tight text-white drop-shadow-md">
                 EvoCommerce
               </h1>
-              <span className="text-[10px] font-bold tracking-widest text-brand-400 uppercase">
-                Crystal Glass OS
+              <span className="text-[10px] font-bold tracking-widest text-slate-200 uppercase">
+                Pure Glass OS
               </span>
             </div>
           </div>
           {setMobileOpen && (
             <button
               onClick={() => setMobileOpen(false)}
-              className="lg:hidden p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/10"
+              className="lg:hidden p-2 rounded-xl text-slate-300 hover:text-white hover:bg-white/15"
             >
               <X className="w-5 h-5" />
             </button>
@@ -81,20 +81,20 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
                     key={item.path}
                     to={item.path}
                     onClick={() => setMobileOpen && setMobileOpen(false)}
-                    className={`relative flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                    className={`relative flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 ${
                       isActive
-                        ? 'text-white font-bold'
-                        : 'text-slate-200 hover:text-white hover:bg-white/10'
+                        ? 'text-white font-extrabold'
+                        : 'text-slate-200 hover:text-white hover:bg-white/15'
                     }`}
                   >
                     {isActive && (
                       <motion.div
                         layoutId="activePill"
-                        className="absolute inset-0 rounded-xl bg-gradient-to-r from-brand-500/40 via-brand-500/25 to-brand-500/10 border-l-4 border-brand-400 backdrop-blur-xl shadow-lg"
+                        className="absolute inset-0 rounded-xl bg-white/20 border-l-4 border-white backdrop-blur-2xl shadow-lg"
                         transition={{ type: 'spring', stiffness: 400, damping: 35 }}
                       />
                     )}
-                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-brand-300' : 'text-slate-300'}`} />
+                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-white' : 'text-slate-300'}`} />
                     <span className="relative z-10 drop-shadow-sm">{item.name}</span>
                   </NavLink>
                 );
@@ -115,20 +115,20 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
                     key={item.path}
                     to={item.path}
                     onClick={() => setMobileOpen && setMobileOpen(false)}
-                    className={`relative flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+                    className={`relative flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 ${
                       isActive
-                        ? 'text-white font-bold'
-                        : 'text-slate-200 hover:text-white hover:bg-white/10'
+                        ? 'text-white font-extrabold'
+                        : 'text-slate-200 hover:text-white hover:bg-white/15'
                     }`}
                   >
                     {isActive && (
                       <motion.div
                         layoutId="activePill"
-                        className="absolute inset-0 rounded-xl bg-brand-500/35 border-l-4 border-brand-400 backdrop-blur-xl shadow-lg"
+                        className="absolute inset-0 rounded-xl bg-white/20 border-l-4 border-white backdrop-blur-2xl shadow-lg"
                         transition={{ type: 'spring', stiffness: 400, damping: 35 }}
                       />
                     )}
-                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-brand-300' : 'text-slate-300'}`} />
+                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-white' : 'text-slate-300'}`} />
                     <span className="relative z-10 drop-shadow-sm">{item.name}</span>
                   </NavLink>
                 );
@@ -139,7 +139,7 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
       </div>
 
       {/* Bottom Profile / Settings */}
-      <div className="pt-6 border-t border-white/15 space-y-1">
+      <div className="pt-6 border-t border-white/20 space-y-1">
         {NAV_BOTTOM.map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.path;
@@ -148,10 +148,10 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
               key={item.path}
               to={item.path}
               onClick={() => setMobileOpen && setMobileOpen(false)}
-              className={`flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
+              className={`flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-300 ${
                 isActive
-                  ? 'text-white font-bold bg-brand-500/30 border border-white/20 backdrop-blur-xl shadow-lg'
-                  : 'text-slate-200 hover:text-white hover:bg-white/10'
+                  ? 'text-white font-bold bg-white/20 border border-white/25 backdrop-blur-2xl shadow-lg'
+                  : 'text-slate-200 hover:text-white hover:bg-white/15'
               }`}
             >
               <Icon className="w-5 h-5 text-slate-300" />
@@ -165,8 +165,8 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
 
   return (
     <>
-      {/* Desktop Crystal Glass Sidebar */}
-      <aside className="hidden lg:flex flex-col w-64 fixed inset-y-0 left-0 z-40 glass-panel border-r border-white/20 bg-slate-950/20 dark:bg-slate-950/25 backdrop-blur-3xl shadow-2xl">
+      {/* Desktop Pure Optical Glass Sidebar */}
+      <aside className="hidden lg:flex flex-col w-64 fixed inset-y-0 left-0 z-40 glass-panel border-r border-white/20 bg-black/20 dark:bg-black/25 backdrop-blur-3xl shadow-2xl">
         <SidebarContent />
       </aside>
 
@@ -179,14 +179,14 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setMobileOpen(false)}
-              className="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-md lg:hidden"
+              className="fixed inset-0 z-50 bg-black/70 backdrop-blur-md lg:hidden"
             />
             <motion.aside
               initial={{ x: '-100%' }}
               animate={{ x: 0 }}
               exit={{ x: '-100%' }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-              className="fixed inset-y-0 left-0 z-50 w-72 glass-panel border-r border-white/25 bg-slate-950/65 backdrop-blur-3xl text-white lg:hidden shadow-2xl"
+              className="fixed inset-y-0 left-0 z-50 w-72 glass-panel border-r border-white/30 bg-black/80 backdrop-blur-3xl text-white lg:hidden shadow-2xl"
             >
               <SidebarContent />
             </motion.aside>

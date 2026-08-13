@@ -9,23 +9,23 @@ export const Layout = ({ children }) => {
   const location = useLocation();
 
   return (
-    <div className="relative min-h-screen bg-dark-bg text-slate-100 flex transition-colors duration-300 overflow-x-hidden">
-      {/* Maximum-Visibility Crystal Video Background */}
+    <div className="relative min-h-screen bg-black text-white flex transition-colors duration-300 overflow-x-hidden">
+      {/* Maximum-Clarity Pure Neutral Video Background */}
       <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="w-full h-full object-cover opacity-85 dark:opacity-90 filter saturate-150 contrast-125 transition-opacity duration-700"
+          className="w-full h-full object-cover opacity-90 dark:opacity-95 filter saturate-150 contrast-125 transition-opacity duration-700"
         >
           <source
             src="https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/a/handstouchgodArea.mp4"
             type="video/mp4"
           />
         </video>
-        {/* Minimal Crystal Ambient Glass Tint Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/25 via-transparent to-slate-950/35 backdrop-blur-[1px]" />
+        {/* Pure Neutral Soft Ambient Tint */}
+        <div className="absolute inset-0 bg-black/15 backdrop-blur-[0.5px]" />
       </div>
 
       {/* Navigation Sidebar */}
