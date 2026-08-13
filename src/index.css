@@ -4,17 +4,17 @@
 
 @layer base {
   :root {
-    --bg-main: #f8fafc;
-    --bg-card: rgba(255, 255, 255, 0.75);
-    --border-card: rgba(0, 0, 0, 0.08);
+    --bg-main: #f1f5f9;
+    --bg-card: rgba(255, 255, 255, 0.45);
+    --border-card: rgba(255, 255, 255, 0.4);
     --text-primary: #0f172a;
-    --text-secondary: #64748b;
+    --text-secondary: #475569;
   }
 
   .dark {
-    --bg-main: #0b0f19;
-    --bg-card: rgba(17, 24, 39, 0.65);
-    --border-card: rgba(255, 255, 255, 0.08);
+    --bg-main: #060913;
+    --bg-card: rgba(15, 23, 42, 0.42);
+    --border-card: rgba(255, 255, 255, 0.12);
     --text-primary: #f8fafc;
     --text-secondary: #94a3b8;
   }
@@ -25,22 +25,37 @@
   }
 }
 
-/* Custom Glassmorphism Classes */
+/* Ultra Glassmorphism Tokens */
 .glass-panel {
   background: var(--bg-card);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
   border: 1px solid var(--border-card);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3), inset 0 1px 0 0 rgba(255, 255, 255, 0.15);
 }
 
 .glass-panel-hover {
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .glass-panel-hover:hover {
-  transform: translateY(-2px);
-  border-color: rgba(99, 102, 241, 0.3);
-  box-shadow: 0 12px 24px -10px rgba(0, 0, 0, 0.3), 0 0 20px -5px rgba(99, 102, 241, 0.15);
+  transform: translateY(-3px);
+  background: rgba(15, 23, 42, 0.55);
+  border-color: rgba(99, 102, 241, 0.4);
+  box-shadow: 0 16px 40px -10px rgba(0, 0, 0, 0.5), 0 0 30px 0 rgba(99, 102, 241, 0.25), inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+}
+
+/* Ultra Glass Inputs */
+input, select, textarea {
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+}
+
+.dark input, .dark select, .dark textarea {
+  background: rgba(0, 0, 0, 0.25) !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
 }
 
 /* Scrollbars */
@@ -54,31 +69,31 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.2);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 9999px;
+  backdrop-filter: blur(8px);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(148, 163, 184, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 
-/* Recharts Custom Tooltip Styling */
+/* Recharts Glass Tooltip */
 .recharts-default-tooltip {
-  background-color: rgba(15, 23, 42, 0.9) !important;
-  border: 1px solid rgba(255, 255, 255, 0.1) !important;
-  border-radius: 12px !important;
-  backdrop-filter: blur(12px) !important;
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5) !important;
+  background-color: rgba(15, 23, 42, 0.75) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 16px !important;
+  backdrop-filter: blur(24px) saturate(200%) !important;
+  box-shadow: 0 12px 30px -5px rgba(0, 0, 0, 0.6) !important;
   color: #f8fafc !important;
 }
 
 .light .recharts-default-tooltip {
-  background-color: rgba(255, 255, 255, 0.95) !important;
-  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  border: 1px solid rgba(0, 0, 0, 0.12) !important;
   color: #0f172a !important;
 }
 
-/* Hide scrollbar for clean UI elements */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

@@ -9,23 +9,23 @@ export const Layout = ({ children }) => {
   const location = useLocation();
 
   return (
-    <div className="relative min-h-screen bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-slate-100 flex transition-colors duration-300 overflow-x-hidden">
-      {/* Dynamic Looping Video Background */}
+    <div className="relative min-h-screen bg-slate-900/10 dark:bg-dark-bg text-slate-900 dark:text-slate-100 flex transition-colors duration-300 overflow-x-hidden">
+      {/* High-Visibility Looping Video Background */}
       <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
         <video
           autoPlay
           loop
           muted
           playsInline
-          className="w-full h-full object-cover opacity-25 dark:opacity-35 filter blur-[0.5px] transition-opacity duration-700"
+          className="w-full h-full object-cover opacity-60 dark:opacity-75 filter saturate-150 contrast-110 transition-opacity duration-700"
         >
           <source
             src="https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/a/handstouchgodArea.mp4"
             type="video/mp4"
           />
         </video>
-        {/* Soft Ambient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-50/70 via-slate-50/50 to-slate-50/80 dark:from-slate-950/75 dark:via-slate-950/60 dark:to-slate-950/85 backdrop-blur-[2px]" />
+        {/* Subtle Ambient Glass Tint Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/35 via-slate-950/20 to-slate-950/45 dark:from-slate-950/45 dark:via-slate-950/25 dark:to-slate-950/55 backdrop-blur-[1.5px]" />
       </div>
 
       {/* Navigation Sidebar */}

@@ -44,19 +44,18 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
         {/* Logo Branding */}
         <div className="flex items-center justify-between mb-8 px-2">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-brand-600 via-brand-500 to-brand-accent flex items-center justify-center shadow-lg shadow-brand-500/25">
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-brand-600 via-brand-500 to-brand-accent flex items-center justify-center shadow-lg shadow-brand-500/30 ring-1 ring-white/20">
               <Zap className="w-5 h-5 text-white fill-current" />
             </div>
             <div>
-              <h1 className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-700 to-brand-600 dark:from-white dark:via-slate-200 dark:to-brand-400 bg-clip-text text-transparent">
+              <h1 className="text-xl font-extrabold tracking-tight bg-gradient-to-r from-white via-slate-100 to-brand-400 bg-clip-text text-transparent">
                 EvoCommerce
               </h1>
-              <span className="text-[10px] font-semibold tracking-wider text-brand-500 uppercase">
-                Admin OS v2.4
+              <span className="text-[10px] font-bold tracking-widest text-brand-400 uppercase">
+                Glass OS v2.4
               </span>
             </div>
           </div>
-          {/* Close button on mobile */}
           {setMobileOpen && (
             <button
               onClick={() => setMobileOpen(false)}
@@ -70,7 +69,7 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
         {/* Main Navigation */}
         <div className="space-y-6">
           <div>
-            <p className="px-3 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-3">
+            <p className="px-3 text-[11px] font-bold text-slate-400 dark:text-slate-400 uppercase tracking-widest mb-3">
               Main Menu
             </p>
             <nav className="space-y-1">
@@ -84,18 +83,18 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
                     onClick={() => setMobileOpen && setMobileOpen(false)}
                     className={`relative flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
                       isActive
-                        ? 'text-brand-600 dark:text-white font-bold'
-                        : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-black/5 dark:hover:bg-white/5'
+                        ? 'text-white font-bold'
+                        : 'text-slate-300 hover:text-white hover:bg-white/10'
                     }`}
                   >
                     {isActive && (
                       <motion.div
                         layoutId="activePill"
-                        className="absolute inset-0 rounded-xl bg-gradient-to-r from-brand-500/15 via-brand-500/10 to-transparent border-l-4 border-brand-500 dark:from-brand-500/20 dark:via-brand-500/10"
+                        className="absolute inset-0 rounded-xl bg-gradient-to-r from-brand-500/30 via-brand-500/20 to-brand-500/5 border-l-4 border-brand-400 backdrop-blur-md"
                         transition={{ type: 'spring', stiffness: 400, damping: 35 }}
                       />
                     )}
-                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-brand-500' : ''}`} />
+                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-brand-400' : 'text-slate-400'}`} />
                     <span className="relative z-10">{item.name}</span>
                   </NavLink>
                 );
@@ -104,7 +103,7 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
           </div>
 
           <div>
-            <p className="px-3 text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-3">
+            <p className="px-3 text-[11px] font-bold text-slate-400 dark:text-slate-400 uppercase tracking-widest mb-3">
               Management
             </p>
             <nav className="space-y-1">
@@ -118,18 +117,18 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
                     onClick={() => setMobileOpen && setMobileOpen(false)}
                     className={`relative flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
                       isActive
-                        ? 'text-brand-600 dark:text-white font-bold'
-                        : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-black/5 dark:hover:bg-white/5'
+                        ? 'text-white font-bold'
+                        : 'text-slate-300 hover:text-white hover:bg-white/10'
                     }`}
                   >
                     {isActive && (
                       <motion.div
                         layoutId="activePill"
-                        className="absolute inset-0 rounded-xl bg-brand-500/15 border-l-4 border-brand-500"
+                        className="absolute inset-0 rounded-xl bg-brand-500/25 border-l-4 border-brand-400 backdrop-blur-md"
                         transition={{ type: 'spring', stiffness: 400, damping: 35 }}
                       />
                     )}
-                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-brand-500' : ''}`} />
+                    <Icon className={`w-5 h-5 relative z-10 ${isActive ? 'text-brand-400' : 'text-slate-400'}`} />
                     <span className="relative z-10">{item.name}</span>
                   </NavLink>
                 );
@@ -140,7 +139,7 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
       </div>
 
       {/* Bottom Profile / Settings */}
-      <div className="pt-6 border-t border-slate-200 dark:border-white/10 space-y-1">
+      <div className="pt-6 border-t border-white/10 space-y-1">
         {NAV_BOTTOM.map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.path;
@@ -151,11 +150,11 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
               onClick={() => setMobileOpen && setMobileOpen(false)}
               className={`flex items-center gap-3.5 px-3.5 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
                 isActive
-                  ? 'text-brand-600 dark:text-white font-bold bg-brand-500/10'
-                  : 'text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-slate-200 hover:bg-black/5 dark:hover:bg-white/5'
+                  ? 'text-white font-bold bg-brand-500/20 border border-white/10 backdrop-blur-md'
+                  : 'text-slate-300 hover:text-white hover:bg-white/10'
               }`}
             >
-              <Icon className="w-5 h-5" />
+              <Icon className="w-5 h-5 text-slate-400" />
               <span>{item.name}</span>
             </NavLink>
           );
@@ -166,8 +165,8 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
 
   return (
     <>
-      {/* Desktop Sidebar */}
-      <aside className="hidden lg:flex flex-col w-64 fixed inset-y-0 left-0 z-40 glass-panel border-r border-slate-200 dark:border-white/10 bg-white/75 dark:bg-slate-950/70">
+      {/* Desktop Ultra Glass Sidebar */}
+      <aside className="hidden lg:flex flex-col w-64 fixed inset-y-0 left-0 z-40 glass-panel border-r border-white/15 bg-slate-950/35 dark:bg-slate-950/40 backdrop-blur-2xl">
         <SidebarContent />
       </aside>
 
@@ -180,14 +179,14 @@ export const Sidebar = ({ mobileOpen, setMobileOpen }) => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               onClick={() => setMobileOpen(false)}
-              className="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-sm lg:hidden"
+              className="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-md lg:hidden"
             />
             <motion.aside
               initial={{ x: '-100%' }}
               animate={{ x: 0 }}
               exit={{ x: '-100%' }}
               transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-              className="fixed inset-y-0 left-0 z-50 w-72 glass-panel border-r border-white/10 bg-slate-900/95 dark:bg-slate-950/95 text-white lg:hidden shadow-2xl"
+              className="fixed inset-y-0 left-0 z-50 w-72 glass-panel border-r border-white/20 bg-slate-950/80 backdrop-blur-3xl text-white lg:hidden shadow-2xl"
             >
               <SidebarContent />
             </motion.aside>
