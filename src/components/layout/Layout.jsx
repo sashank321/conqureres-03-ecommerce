@@ -9,12 +9,30 @@ export const Layout = ({ children }) => {
   const location = useLocation();
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-slate-100 flex transition-colors duration-300">
+    <div className="relative min-h-screen bg-slate-50 dark:bg-dark-bg text-slate-900 dark:text-slate-100 flex transition-colors duration-300 overflow-x-hidden">
+      {/* Dynamic Looping Video Background */}
+      <div className="fixed inset-0 z-0 overflow-hidden pointer-events-none">
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover opacity-25 dark:opacity-35 filter blur-[0.5px] transition-opacity duration-700"
+        >
+          <source
+            src="https://pub-86dc5b5484314368ac5436a674b0d919.r2.dev/a/handstouchgodArea.mp4"
+            type="video/mp4"
+          />
+        </video>
+        {/* Soft Ambient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-50/70 via-slate-50/50 to-slate-50/80 dark:from-slate-950/75 dark:via-slate-950/60 dark:to-slate-950/85 backdrop-blur-[2px]" />
+      </div>
+
       {/* Navigation Sidebar */}
       <Sidebar mobileOpen={mobileOpen} setMobileOpen={setMobileOpen} />
 
       {/* Main Content Area */}
-      <div className="flex-1 lg:pl-64 flex flex-col min-w-0 min-h-screen">
+      <div className="relative z-10 flex-1 lg:pl-64 flex flex-col min-w-0 min-h-screen">
         {/* Top Header */}
         <Header setMobileOpen={setMobileOpen} />
 
