@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Modal } from '../common/Modal';
 import { useData } from '../../context/DataContext';
+import { useToast } from '../common/Toast';
 
 export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
   const { addProduct, updateProduct } = useData();
+  const { addToast } = useToast();
 
   const [formData, setFormData] = useState({
     name: '',
@@ -42,6 +44,7 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
         stock: Number(formData.stock),
         reorderLevel: Number(formData.reorderLevel),
       });
+      addToast(`Product "${formData.name}" updated successfully!`, 'success');
     } else {
       addProduct({
         ...formData,
@@ -49,6 +52,7 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
         stock: Number(formData.stock),
         reorderLevel: Number(formData.reorderLevel),
       });
+      addToast(`New product "${formData.name}" created!`, 'success');
     }
     onClose();
   };
@@ -62,7 +66,7 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
       <form onSubmit={handleSubmit} className="space-y-4 text-xs sm:text-sm">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
-            <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block font-bold text-slate-200 mb-1">
               Product Title *
             </label>
             <input
@@ -71,28 +75,28 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
               value={formData.name}
               onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               placeholder="e.g. Ergonomic Wireless Mouse"
-              className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+              className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
             />
           </div>
 
           <div>
-            <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block font-bold text-slate-200 mb-1">
               Category *
             </label>
             <select
               value={formData.category}
               onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-              className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+              className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
             >
-              <option value="Electronics">Electronics</option>
-              <option value="Fashion">Fashion</option>
-              <option value="Home & Fitness">Home & Fitness</option>
-              <option value="Home & Living">Home & Living</option>
+              <option value="Electronics" className="bg-slate-900 text-white">Electronics</option>
+              <option value="Fashion" className="bg-slate-900 text-white">Fashion</option>
+              <option value="Home & Fitness" className="bg-slate-900 text-white">Home & Fitness</option>
+              <option value="Home & Living" className="bg-slate-900 text-white">Home & Living</option>
             </select>
           </div>
 
           <div>
-            <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block font-bold text-slate-200 mb-1">
               Price (₹ INR) *
             </label>
             <input
@@ -102,12 +106,12 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
               value={formData.price}
               onChange={(e) => setFormData({ ...formData, price: e.target.value })}
               placeholder="8499"
-              className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+              className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
             />
           </div>
 
           <div>
-            <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block font-bold text-slate-200 mb-1">
               SKU Code
             </label>
             <input
@@ -115,12 +119,12 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
               value={formData.sku}
               onChange={(e) => setFormData({ ...formData, sku: e.target.value })}
               placeholder="AUR-WL-01"
-              className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+              className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
             />
           </div>
 
           <div>
-            <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block font-bold text-slate-200 mb-1">
               Current Stock Qty *
             </label>
             <input
@@ -130,12 +134,12 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
               value={formData.stock}
               onChange={(e) => setFormData({ ...formData, stock: e.target.value })}
               placeholder="25"
-              className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+              className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
             />
           </div>
 
           <div>
-            <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+            <label className="block font-bold text-slate-200 mb-1">
               Reorder Alert Threshold
             </label>
             <input
@@ -144,13 +148,13 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
               value={formData.reorderLevel}
               onChange={(e) => setFormData({ ...formData, reorderLevel: e.target.value })}
               placeholder="10"
-              className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+              className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
             />
           </div>
         </div>
 
         <div>
-          <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+          <label className="block font-bold text-slate-200 mb-1">
             Image URL
           </label>
           <input
@@ -158,12 +162,12 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
             value={formData.image}
             onChange={(e) => setFormData({ ...formData, image: e.target.value })}
             placeholder="https://images.unsplash.com/..."
-            className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+            className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
           />
         </div>
 
         <div>
-          <label className="block font-bold text-slate-700 dark:text-slate-300 mb-1">
+          <label className="block font-bold text-slate-200 mb-1">
             Description
           </label>
           <textarea
@@ -171,21 +175,21 @@ export const ProductModal = ({ isOpen, onClose, productToEdit = null }) => {
             value={formData.description}
             onChange={(e) => setFormData({ ...formData, description: e.target.value })}
             placeholder="Product summary and key specifications..."
-            className="w-full px-3 py-2 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-white focus:outline-none focus:border-brand-500"
+            className="w-full px-3.5 py-2.5 rounded-xl text-white focus:outline-none focus:border-brand-400"
           />
         </div>
 
-        <div className="flex justify-end gap-3 pt-4 border-t border-slate-200 dark:border-white/10">
+        <div className="flex justify-end gap-3 pt-4 border-t border-white/10">
           <button
             type="button"
             onClick={onClose}
-            className="px-4 py-2 rounded-xl text-slate-600 dark:text-slate-400 hover:bg-black/5 dark:hover:bg-white/10 font-bold"
+            className="px-4 py-2.5 rounded-xl text-slate-300 hover:bg-white/10 font-bold"
           >
             Cancel
           </button>
           <button
             type="submit"
-            className="px-6 py-2 rounded-xl bg-gradient-to-r from-brand-600 to-brand-500 text-white font-bold shadow-lg shadow-brand-500/25 hover:shadow-brand-500/40 transition-all"
+            className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-brand-600 to-brand-500 text-white font-bold shadow-lg shadow-brand-500/25 hover:shadow-brand-500/40 transition-all"
           >
             {productToEdit ? 'Save Changes' : 'Create Product'}
           </button>

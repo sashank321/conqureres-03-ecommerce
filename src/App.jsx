@@ -4,6 +4,7 @@ import { AnimatePresence } from 'framer-motion';
 
 import { ThemeProvider } from './context/ThemeContext';
 import { DataProvider } from './context/DataContext';
+import { ToastProvider } from './components/common/Toast';
 import { Layout } from './components/layout/Layout';
 import { LoadingReveal } from './components/common/LoadingReveal';
 
@@ -29,28 +30,30 @@ export function App() {
   return (
     <ThemeProvider>
       <DataProvider>
-        <AnimatePresence mode="wait">
-          {loading ? (
-            <LoadingReveal key="loading" />
-          ) : (
-            <Router key="router">
-              <Layout>
-                <Routes>
-                  <Route path="/" element={<Dashboard />} />
-                  <Route path="/orders" element={<Orders />} />
-                  <Route path="/products" element={<Products />} />
-                  <Route path="/inventory" element={<Inventory />} />
-                  <Route path="/customers" element={<Customers />} />
-                  <Route path="/analytics" element={<Analytics />} />
-                  <Route path="/marketing" element={<Marketing />} />
-                  <Route path="/reports" element={<Reports />} />
-                  <Route path="/settings" element={<Settings />} />
-                  <Route path="/help" element={<Help />} />
-                </Routes>
-              </Layout>
-            </Router>
-          )}
-        </AnimatePresence>
+        <ToastProvider>
+          <AnimatePresence mode="wait">
+            {loading ? (
+              <LoadingReveal key="loading" />
+            ) : (
+              <Router key="router">
+                <Layout>
+                  <Routes>
+                    <Route path="/" element={<Dashboard />} />
+                    <Route path="/orders" element={<Orders />} />
+                    <Route path="/products" element={<Products />} />
+                    <Route path="/inventory" element={<Inventory />} />
+                    <Route path="/customers" element={<Customers />} />
+                    <Route path="/analytics" element={<Analytics />} />
+                    <Route path="/marketing" element={<Marketing />} />
+                    <Route path="/reports" element={<Reports />} />
+                    <Route path="/settings" element={<Settings />} />
+                    <Route path="/help" element={<Help />} />
+                  </Routes>
+                </Layout>
+              </Router>
+            )}
+          </AnimatePresence>
+        </ToastProvider>
       </DataProvider>
     </ThemeProvider>
   );

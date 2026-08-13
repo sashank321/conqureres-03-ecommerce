@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useData } from '../context/DataContext';
+import { useToast } from '../components/common/Toast';
 import { GlassCard } from '../components/common/GlassCard';
 import { StatusBadge } from '../components/common/StatusBadge';
 import { OrderDetailsModal } from '../components/orders/OrderDetailsModal';
@@ -9,6 +10,7 @@ import { Search, Download, Filter, Eye, ChevronLeft, ChevronRight } from 'lucide
 
 export const Orders = () => {
   const { orders } = useData();
+  const { addToast } = useToast();
 
   const [search, setSearch] = useState('');
   const [statusFilter, setStatusFilter] = useState('All');
@@ -50,6 +52,7 @@ export const Orders = () => {
       Location: o.location,
     }));
     exportToCSV(exportData, `evocommerce_orders_${new Date().toISOString().split('T')[0]}.csv`);
+    addToast('Orders report CSV downloaded successfully!', 'success');
   };
 
   return (
@@ -59,31 +62,31 @@ export const Orders = () => {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           {/* Search */}
           <div className="relative flex-1 max-w-md">
-            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-300" />
             <input
               type="text"
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search by Order ID, Customer, or Product..."
-              className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-xs sm:text-sm text-slate-900 dark:text-white placeholder:text-slate-400 focus:outline-none focus:border-brand-500"
+              className="w-full pl-10 pr-4 py-2.5 rounded-xl text-xs sm:text-sm text-white placeholder:text-slate-400 focus:outline-none focus:border-brand-400"
             />
           </div>
 
           {/* Filter Dropdowns */}
           <div className="flex flex-wrap items-center gap-3">
-            <div className="flex items-center gap-2 bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 px-3 py-1.5 rounded-xl text-xs">
-              <Filter className="w-3.5 h-3.5 text-slate-400" />
+            <div className="flex items-center gap-2 px-3 py-1.5 rounded-xl text-xs bg-black/20 border border-white/15 backdrop-blur-md">
+              <Filter className="w-3.5 h-3.5 text-brand-400" />
               <select
                 value={statusFilter}
                 onChange={(e) => setStatusFilter(e.target.value)}
-                className="bg-transparent text-slate-800 dark:text-slate-200 focus:outline-none font-semibold"
+                className="bg-transparent text-slate-100 focus:outline-none font-semibold"
               >
-                <option value="All">All Statuses</option>
-                <option value="Pending">Pending</option>
-                <option value="Processing">Processing</option>
-                <option value="Shipped">Shipped</option>
-                <option value="Delivered">Delivered</option>
-                <option value="Cancelled">Cancelled</option>
+                <option value="All" className="bg-slate-900 text-white">All Statuses</option>
+                <option value="Pending" className="bg-slate-900 text-white">Pending</option>
+                <option value="Processing" className="bg-slate-900 text-white">Processing</option>
+                <option value="Shipped" className="bg-slate-900 text-white">Shipped</option>
+                <option value="Delivered" className="bg-slate-900 text-white">Delivered</option>
+                <option value="Cancelled" className="bg-slate-900 text-white">Cancelled</option>
               </select>
             </div>
 
@@ -102,7 +105,7 @@ export const Orders = () => {
         <div className="overflow-x-auto no-scrollbar">
           <table className="w-full text-left text-xs sm:text-sm">
             <thead>
-              <tr className="border-b border-slate-200 dark:border-white/10 text-slate-400 uppercase font-bold tracking-wider">
+              <tr className="border-b border-white/10 text-slate-300 uppercase font-bold tracking-wider">
                 <th className="pb-3 px-3">Order ID</th>
                 <th className="pb-3 px-3">Customer</th>
                 <th className="pb-3 px-3">Product</th>
@@ -113,36 +116,36 @@ export const Orders = () => {
                 <th className="pb-3 px-3 text-right">Actions</th>
               </tr>
             </thead>
-            <tbody className="divide-y divide-slate-100 dark:divide-white/5">
+            <tbody className="divide-y divide-white/5">
               {paginatedOrders.length > 0 ? (
                 paginatedOrders.map((ord) => (
                   <tr
                     key={ord.id}
-                    className="hover:bg-black/5 dark:hover:bg-white/5 transition-colors cursor-pointer"
+                    className="hover:bg-white/5 transition-colors cursor-pointer"
                     onClick={() => setSelectedOrder(ord)}
                   >
-                    <td className="py-4 px-3 font-extrabold text-brand-500">{ord.id}</td>
+                    <td className="py-4 px-3 font-extrabold text-brand-400">{ord.id}</td>
                     <td className="py-4 px-3">
                       <div className="flex items-center gap-2.5">
                         <img
                           src={ord.avatar}
                           alt={ord.customerName}
-                          className="w-8 h-8 rounded-full object-cover"
+                          className="w-8 h-8 rounded-full object-cover ring-2 ring-white/10"
                         />
                         <div>
-                          <p className="font-bold text-slate-900 dark:text-white">{ord.customerName}</p>
+                          <p className="font-bold text-white">{ord.customerName}</p>
                           <p className="text-[11px] text-slate-400">{ord.location}</p>
                         </div>
                       </div>
                     </td>
-                    <td className="py-4 px-3 text-slate-700 dark:text-slate-300 max-w-[180px] truncate font-medium">
+                    <td className="py-4 px-3 text-slate-200 max-w-[180px] truncate font-medium">
                       {ord.productName}
                     </td>
                     <td className="py-4 px-3 text-slate-400">{formatDate(ord.date)}</td>
-                    <td className="py-4 px-3 font-extrabold text-slate-900 dark:text-white">
+                    <td className="py-4 px-3 font-extrabold text-white">
                       {formatCurrency(ord.amount)}
                     </td>
-                    <td className="py-4 px-3 text-slate-500 dark:text-slate-400">{ord.paymentMethod}</td>
+                    <td className="py-4 px-3 text-slate-300">{ord.paymentMethod}</td>
                     <td className="py-4 px-3">
                       <StatusBadge status={ord.status} />
                     </td>
@@ -152,7 +155,7 @@ export const Orders = () => {
                           e.stopPropagation();
                           setSelectedOrder(ord);
                         }}
-                        className="p-2 rounded-xl text-slate-400 hover:text-brand-500 hover:bg-brand-500/10 transition-colors"
+                        className="p-2 rounded-xl text-slate-300 hover:text-brand-400 hover:bg-brand-500/20 transition-colors"
                       >
                         <Eye className="w-4 h-4" />
                       </button>
@@ -171,8 +174,8 @@ export const Orders = () => {
         </div>
 
         {/* Pagination Footer */}
-        <div className="flex items-center justify-between pt-4 border-t border-slate-200 dark:border-white/10 text-xs">
-          <span className="text-slate-400 font-medium">
+        <div className="flex items-center justify-between pt-4 border-t border-white/10 text-xs">
+          <span className="text-slate-300 font-medium">
             Showing {filteredOrders.length > 0 ? (currentPage - 1) * itemsPerPage + 1 : 0} to{' '}
             {Math.min(currentPage * itemsPerPage, filteredOrders.length)} of {filteredOrders.length} orders
           </span>
@@ -181,17 +184,17 @@ export const Orders = () => {
             <button
               disabled={currentPage === 1}
               onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-              className="p-2 rounded-xl border border-slate-200 dark:border-white/10 disabled:opacity-30 hover:bg-black/5 dark:hover:bg-white/10 text-slate-700 dark:text-slate-300"
+              className="p-2 rounded-xl border border-white/10 disabled:opacity-30 hover:bg-white/10 text-slate-200"
             >
               <ChevronLeft className="w-4 h-4" />
             </button>
-            <span className="font-bold px-2 text-slate-800 dark:text-slate-200">
+            <span className="font-bold px-2 text-white">
               Page {currentPage} of {totalPages}
             </span>
             <button
               disabled={currentPage === totalPages}
               onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-              className="p-2 rounded-xl border border-slate-200 dark:border-white/10 disabled:opacity-30 hover:bg-black/5 dark:hover:bg-white/10 text-slate-700 dark:text-slate-300"
+              className="p-2 rounded-xl border border-white/10 disabled:opacity-30 hover:bg-white/10 text-slate-200"
             >
               <ChevronRight className="w-4 h-4" />
             </button>
